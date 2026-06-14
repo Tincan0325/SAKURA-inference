@@ -65,7 +65,7 @@ def infer_batch(processor, model, items):
     ]
     inputs = processor.apply_chat_template(
         convs, tokenize=True, add_generation_prompt=True, return_dict=True
-    ).to(next(model.parameters()).device, dtype=model.dtype)
+    ).to(next(model.parameters()).device)
 
     with torch.no_grad():
         out = model.generate(**inputs, do_sample=False, max_new_tokens=2048)
