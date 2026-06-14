@@ -47,16 +47,12 @@ def infer_batch(processor, model, items):
         ]}]
         for audio, instr in items
     ]
-    raw = processor.apply_chat_template(
-        convs, tokenize=True, add_generation_prompt=True, return_dict=True
-    )
     device = next(model.parameters()).device
-    inputs = {
-        k: v.to(device, dtype=torch.bfloat16) if v.is_floating_point() else v.to(device)
-        for k, v in raw.items()
-    }
+    inputs = processor.apply_chat_template(
+        convs, tokenize=True, add_generation_prompt=True, return_dict=True
+    ).to(device)
 
-    with torch.no_grad():
+    with torch.no_grad(), torch.autocast(device_type="cuda", dtype=torch.bfloat16):
         out = model.generate(**inputs, do_sample=False, max_new_tokens=128)
 
     responses = processor.batch_decode(
