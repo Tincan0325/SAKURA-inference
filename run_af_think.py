@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 import torch
-from transformers import AutoModelForCausalLM, AutoProcessor
+from transformers import AudioFlamingo3ForConditionalGeneration, AutoProcessor
 
 logging.basicConfig(
     level=logging.INFO,
@@ -43,12 +43,11 @@ def extract_answer(full_text: str) -> str:
 
 def load_model():
     log.info(f"Loading {MODEL_ID} in bf16 ...")
-    processor = AutoProcessor.from_pretrained(MODEL_ID, trust_remote_code=True)
-    model = AutoModelForCausalLM.from_pretrained(
+    processor = AutoProcessor.from_pretrained(MODEL_ID)
+    model = AudioFlamingo3ForConditionalGeneration.from_pretrained(
         MODEL_ID,
-        torch_dtype=torch.bfloat16,
+        dtype=torch.bfloat16,
         device_map="auto",
-        trust_remote_code=True,
     )
     model.eval()
     log.info(f"Model loaded on: {next(model.parameters()).device}")
