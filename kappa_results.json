@@ -7,44 +7,44 @@
   },
   "Gender/multi": {
     "gpt-4o": 1.0,
-    "gpt-4o-mini": NaN,
-    "gemini-2.5-flash-lite": 0.88390308176561,
-    "gemini-3.1-flash-lite": 0.9645078002836466
+    "gpt-4o-mini": 0.9733353765994942,
+    "gemini-2.5-flash-lite": 0.8900690028412934,
+    "gemini-3.1-flash-lite": 0.9663786437144875
   },
   "Language/single": {
-    "gpt-4o": NaN,
-    "gpt-4o-mini": NaN,
-    "gemini-2.5-flash-lite": NaN,
-    "gemini-3.1-flash-lite": NaN
+    "gpt-4o": 1.0,
+    "gpt-4o-mini": 1.0,
+    "gemini-2.5-flash-lite": 0.9819884726224783,
+    "gemini-3.1-flash-lite": 1.0
   },
   "Language/multi": {
-    "gpt-4o": NaN,
-    "gpt-4o-mini": NaN,
-    "gemini-2.5-flash-lite": NaN,
-    "gemini-3.1-flash-lite": NaN
+    "gpt-4o": 1.0,
+    "gpt-4o-mini": 0.9504044084970223,
+    "gemini-2.5-flash-lite": 0.9268215797532198,
+    "gemini-3.1-flash-lite": 0.9663261870019082
   },
   "Emotion/single": {
     "gpt-4o": 1.0,
-    "gpt-4o-mini": NaN,
-    "gemini-2.5-flash-lite": 0.9864029202285886,
-    "gemini-3.1-flash-lite": 0.9909229294694707
+    "gpt-4o-mini": 0.9907365433510061,
+    "gemini-2.5-flash-lite": 0.9868651488616462,
+    "gemini-3.1-flash-lite": 0.9912319158263919
   },
   "Emotion/multi": {
     "gpt-4o": 1.0,
-    "gpt-4o-mini": 0.9122748125769273,
-    "gemini-2.5-flash-lite": 0.8746425767430139,
-    "gemini-3.1-flash-lite": 0.9815634502136176
+    "gpt-4o-mini": 0.9304615739007747,
+    "gemini-2.5-flash-lite": 0.8798504805980775,
+    "gemini-3.1-flash-lite": 0.9823243482103402
   },
   "Animal/single": {
     "gpt-4o": 1.0,
-    "gpt-4o-mini": 1.0,
-    "gemini-2.5-flash-lite": 0.9628482972136222,
+    "gpt-4o-mini": 0.995232384105304,
+    "gemini-2.5-flash-lite": 0.9637109211982654,
     "gemini-3.1-flash-lite": 1.0
   },
   "Animal/multi": {
     "gpt-4o": 1.0,
-    "gpt-4o-mini": 0.9622209502003434,
-    "gemini-2.5-flash-lite": 0.9089123725801925,
-    "gemini-3.1-flash-lite": 0.9861038454587823
+    "gpt-4o-mini": 0.9858106306715513,
+    "gemini-2.5-flash-lite": 0.9057856578852918,
+    "gemini-3.1-flash-lite": 0.9862808224189654
   }
 }

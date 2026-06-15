@@ -169,7 +169,8 @@ def extract_judgement(text: str) -> dict:
     pattern = r"Explanation: (.*?)\nJudgement: (.*?)(?:\n\n|$)"
     match = re.search(pattern, text, re.DOTALL)
     if match:
-        return {"Explanation": match.group(1), "Judgement": match.group(2)}
+        judgement = re.sub(r'\*+', '', match.group(2)).strip()
+        return {"Explanation": match.group(1), "Judgement": judgement}
     return {"Explanation": "No extracted explanation", "Judgement": "No extracted judgement"}
 
 
