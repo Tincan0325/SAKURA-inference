@@ -1,0 +1,1716 @@
+{
+    "judge_model": "gpt-4o-mini",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "max_tokens": 1024,
+    "results": {
+        "SAKURA/data/Animal/audio/dog67.wav": {
+            "Explanation": "The model generated response correctly identifies the option (b) golden jackal, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "Based on biological classification systems, which of the following animals is most closely related to the one in the audio file? (a) Arctic fox (b) golden jackal (c) black-backed jackal (d) red fox",
+            "model_response": "(b) golden jackal",
+            "label": "(b) golden jackal"
+        },
+        "SAKURA/data/Animal/audio/dog7.wav": {
+            "Explanation": "The model generated response correctly identifies the option (b) Viviparous, which aligns with the ground truth answer. It has chosen one option from the list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the provided options, which one reflects the reproductive strategy most commonly associated with the animal in the sound? (a) Marsupial reproduction (b) Viviparous (c) Asexual reproduction (d) Oviparous",
+            "model_response": "(b) Viviparous",
+            "label": "(b) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/dog10.wav": {
+            "Explanation": "The model generated response correctly identifies the sound \"Barking\" as the answer, which aligns with the ground truth answer. It has chosen one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "From the given options, which sound is the best match for the vocalization of the animal in the provided sound? (a) Mooing (b) Clucking (c) Barking (d) Croaking",
+            "model_response": "(c) Barking",
+            "label": "(c) Barking"
+        },
+        "SAKURA/data/Animal/audio/dog57.wav": {
+            "Explanation": "The model generated response \"None of the above\" does not choose any option from the provided list (a, b, c, d). According to the criteria, if the model does not choose any option from the option list, it should be judged incorrect. Therefore, the model's response is not valid in this context.\n",
+            "Judgement": "incorrect",
+            "instruction": "From the behaviors provided, which one is most representative of how this animal in the provided audio usually acts? (a) Flapping its wings (b) Hiding in shells (c) Jumping between branches (d) Wagging its tail",
+            "model_response": "(e) None of the above",
+            "label": "(d) Wagging its tail"
+        },
+        "SAKURA/data/Animal/audio/dog47.wav": {
+            "Explanation": "The model generated response correctly identifies option (d) Viviparous, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, the response is judged as correct.\n",
+            "Judgement": "correct",
+            "instruction": "Considering the characteristics of the animal in the audio, which of the listed methods best aligns with how it reproduces? (a) Oviparous (b) Marsupial reproduction (c) Asexual reproduction (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/dog35.wav": {
+            "Explanation": "The model generated response correctly identifies the vocalization type as (a) Barking, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Considering the sound of the animal in the recording, which vocalization type is most comparable to it? (a) Barking (b) Chirping (c) Mooing (d) Croaking",
+            "model_response": "(a) Barking",
+            "label": "(a) Barking"
+        },
+        "SAKURA/data/Animal/audio/dog17.wav": {
+            "Explanation": "The model generated response chose option (a) \"Jumping between branches,\" which does not align with the ground truth answer (b) \"Wagging its tail.\" Since the model selected one option from the list but it is not the correct one, it should be judged incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "Which of the following behaviors best describes the typical actions associated with the animal in the recording? (a) Jumping between branches (b) Wagging its tail (c) Hiding in shells (d) Flapping its wings",
+            "model_response": "(a) Jumping between branches",
+            "label": "(b) Wagging its tail"
+        },
+        "SAKURA/data/Animal/audio/dog16.wav": {
+            "Explanation": "The model generated response correctly identifies the option (c) Leash, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Considering the animal in the audio, which of the listed items would you typically associate with taking proper care of it? (a) Insect trap (b) Aquarium filter (c) Leash (d) Birdcage",
+            "model_response": "(c) Leash",
+            "label": "(c) Leash"
+        },
+        "SAKURA/data/Animal/audio/dog63.wav": {
+            "Explanation": "The model generated response chose option (b) black-backed jackal, which does not align with the ground truth answer (d) golden jackal. Since the model selected one option from the list but it is incorrect, it should be judged as incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "Based on Linnaean classification, which of these animals is phylogenetically closest to the animal in the recording? (a) red fox (b) black-backed jackal (c) dhole (d) golden jackal",
+            "model_response": "(b) black-backed jackal",
+            "label": "(d) golden jackal"
+        },
+        "SAKURA/data/Animal/audio/dog27.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the provided options, which of these items is most suitable for meeting the care needs of the animal in the recording? (a) Insect trap (b) Aquarium filter (c) Birdcage (d) Leash",
+            "model_response": "(d) Leash",
+            "label": "(d) Leash"
+        },
+        "SAKURA/data/Animal/audio/dog28.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "What physical feature does the animal in the provided audio segment have? (a) Feathers (b) Scales (c) Claws (d) Horns",
+            "model_response": "(c) Claws",
+            "label": "(c) Claws"
+        },
+        "SAKURA/data/Animal/audio/dog41.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the provided options, which diet category best matches the animal in the recording? (a) Omnivore (b) Herbivore (c) Insectivore (d) Carnivore",
+            "model_response": "(a) Omnivore",
+            "label": "(a) Omnivore"
+        },
+        "SAKURA/data/Animal/audio/dog36.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound provided, which of the following options is the most likely way the animal in the sound moves? (a) Walking (b) Swimming (c) Flying (d) Slithering",
+            "model_response": "(d) Slithering",
+            "label": "(a) Walking"
+        },
+        "SAKURA/data/Animal/audio/dog34.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) Claws, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "What physical attribute is most plausible for the animal that produced this sound? (a) Shell (b) Horns (c) Feathers (d) Claws",
+            "model_response": "(d) Claws",
+            "label": "(d) Claws"
+        },
+        "SAKURA/data/Animal/audio/dog3.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the provided list, which locomotion method is most suitable for the animal heard in the audio? (a) Swimming (b) Walking (c) Flying (d) Slithering",
+            "model_response": "(b) Walking",
+            "label": "(b) Walking"
+        },
+        "SAKURA/data/Animal/audio/dog59.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Which of the listed diet types best reflects the main type of food the animal in the provided sound consumes in its natural habitat? (a) Herbivore (b) Insectivore (c) Omnivore (d) Carnivore",
+            "model_response": "(d) Carnivore",
+            "label": "(c) Omnivore"
+        },
+        "SAKURA/data/Animal/audio/dog12.wav": {
+            "Explanation": "The model generated response correctly identifies the option (c) golden jackal, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "According to the taxonomic hierarchy defined by biological classification, which animal is most closely related to the one in the audio file? (a) black-backed jackal (b) red fox (c) golden jackal (d) dhole",
+            "model_response": "(c) golden jackal",
+            "label": "(c) golden jackal"
+        },
+        "SAKURA/data/Animal/audio/dog25.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) Barking, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Reflecting on the audio provided, which of the listed sounds do you think most closely resembles the vocalization of this animal? (a) Mooing (b) Croaking (c) Chirping (d) Barking",
+            "model_response": "(d) Barking",
+            "label": "(d) Barking"
+        },
+        "SAKURA/data/Animal/audio/dog66.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the audio clues, which of the following physical traits is most likely associated with the animal in the audio? (a) Claws (b) Beak (c) Webbed feet (d) Feathers",
+            "model_response": "(a) Claws",
+            "label": "(a) Claws"
+        },
+        "SAKURA/data/Animal/audio/dog19.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Barking, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, it meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the audio, which of these sounds is most likely to be similar to the one made by the animal in the recording? (a) Barking (b) Clucking (c) Croaking (d) Mooing",
+            "model_response": "(a) Barking",
+            "label": "(a) Barking"
+        },
+        "SAKURA/data/Animal/audio/dog43.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the listed locomotion types, which one matches the typical movement of the animal in the sound? (a) Flying (b) Walking (c) Slithering (d) Swimming",
+            "model_response": "(b) Walking",
+            "label": "(b) Walking"
+        },
+        "SAKURA/data/Animal/audio/dog44.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Reflecting on the animal heard in the recording, what is its most likely reproductive method from the given choices? (a) Marsupial reproduction (b) Oviparous (c) Viviparous (d) Asexual reproduction",
+            "model_response": "(c) Viviparous",
+            "label": "(c) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/dog6.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the given choices, which dietary classification is most appropriate for the animal you heard in the recording? (a) Omnivore (b) Insectivore (c) Carnivore (d) Herbivore",
+            "model_response": "(a) Omnivore",
+            "label": "(a) Omnivore"
+        },
+        "SAKURA/data/Animal/audio/dog54.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Taking into account the sound from the recording and the natural tendencies of this type of animal making the sound, which of the following behaviors is most representative of how it typically acts? (a) Wagging its tail (b) Jumping between branches (c) Hiding in shells (d) Flapping its wings",
+            "model_response": "(a) Wagging its tail",
+            "label": "(a) Wagging its tail"
+        },
+        "SAKURA/data/Animal/audio/dog60.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the characteristics of the animal producing the sound, which item would you consider most essential for ensuring its well-being? (a) Birdcage (b) Leash (c) Aquarium filter (d) Insect trap",
+            "model_response": "(b) Leash",
+            "label": "(b) Leash"
+        },
+        "SAKURA/data/Animal/audio/dog13.wav": {
+            "Explanation": "The model generated response correctly identifies option (b) Claws, which aligns with the ground truth answer. It chooses one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Considering the sound provided, which of the following physical characteristics do you think is most consistent with the appearance or features of the animal in the audio? (a) Scales (b) Claws (c) Wings (d) Horns",
+            "model_response": "(b) Claws",
+            "label": "(b) Claws"
+        },
+        "SAKURA/data/Animal/audio/dog58.wav": {
+            "Explanation": "The model generated response chose option (a) Marsupial reproduction, which does not align with the ground truth answer (c) Viviparous. Since the model selected one option from the list but it is not the correct one, it should be judged incorrect. \n",
+            "Judgement": "incorrect",
+            "instruction": "Based on the audio, which of the following reproductive methods would you associate with the animal producing the sound? (a) Marsupial reproduction (b) Oviparous (c) Viviparous (d) Asexual reproduction",
+            "model_response": "(a) Marsupial reproduction",
+            "label": "(c) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/dog2.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "When analyzing the sound in the audio and reflecting on the natural dietary habits of the type of animal making this sound, which of the following categories best represents its primary diet or the type of food it relies on for survival? (a) Herbivore (b) Carnivore (c) Insectivore (d) Omnivore",
+            "model_response": "(b) Carnivore",
+            "label": "(d) Omnivore"
+        },
+        "SAKURA/data/Animal/audio/dog52.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the sound and the characteristics of the animal producing it, which item would typically be needed to ensure its health and well-being? (a) Insect trap (b) Leash (c) Birdcage (d) Aquarium filter",
+            "model_response": "(b) Leash",
+            "label": "(b) Leash"
+        },
+        "SAKURA/data/Animal/audio/dog24.wav": {
+            "Explanation": "The model generated response correctly identifies the locomotion method as (a) Walking, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Considering the sound provided in the audio and the natural behaviors typically exhibited by animals in this audio, which of the following locomotion methods most accurately describes how the animal in the audio moves? (a) Walking (b) Slithering (c) Swimming (d) Flying",
+            "model_response": "(a) Walking",
+            "label": "(a) Walking"
+        },
+        "SAKURA/data/Animal/audio/dog5.wav": {
+            "Explanation": "The model generated response correctly identifies option (d) Claws, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the animal in the provided audio segment, which of the following physical attributes would you associate with it most confidently? (a) Feathers (b) Shell (c) Hooves (d) Claws",
+            "model_response": "(d) Claws",
+            "label": "(d) Claws"
+        },
+        "SAKURA/data/Animal/audio/dog49.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Which animal in the list shares the closest phylogenetic lineage with the species identified in the audio file? (a) side-striped jackal (b) red fox (c) golden jackal (d) dhole",
+            "model_response": "(c) golden jackal",
+            "label": "(c) golden jackal"
+        },
+        "SAKURA/data/Animal/audio/dog11.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the audio provided, which of the following options best describes the primary mode of locomotion for the animal in the sound? (a) Swimming (b) Slithering (c) Flying (d) Walking",
+            "model_response": "(d) Walking",
+            "label": "(d) Walking"
+        },
+        "SAKURA/data/Animal/audio/dog15.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the audio recording, and considering the common habits and actions of animals in this audio, which behavior from the options below is most likely associated with the animal making the sound? (a) Wagging its tail (b) Hiding in shells (c) Jumping between branches (d) Flapping its wings",
+            "model_response": "(a) Wagging its tail",
+            "label": "(a) Wagging its tail"
+        },
+        "SAKURA/data/Animal/audio/dog40.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on Linnaean taxonomy, which of these animals is most closely aligned with the one in the audio file? (a) Arctic fox (b) dhole (c) side-striped jackal (d) golden jackal",
+            "model_response": "(d) golden jackal",
+            "label": "(d) golden jackal"
+        },
+        "SAKURA/data/Animal/audio/dog65.wav": {
+            "Explanation": "The model generated response chose option (b) \"Jumping between branches,\" which does not align with the ground truth answer (a) \"Wagging its tail.\" Since the model selected one option from the list but it is not the correct one, it should be judged incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "Reflecting on the animal in the provided sound and what is known about its biological characteristics and common behaviors, which of the listed actions would you say best represents this animal? (a) Wagging its tail (b) Jumping between branches (c) Flapping its wings (d) Hiding in shells",
+            "model_response": "(b) Jumping between branches",
+            "label": "(a) Wagging its tail"
+        },
+        "SAKURA/data/Animal/audio/dog39.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "When analyzing the sound in the audio and reflecting on the typical vocalizations of animals in this category, which of the following listed sounds most accurately resembles the vocalization produced by the animal in the recording? (a) Mooing (b) Barking (c) Clucking (d) Croaking",
+            "model_response": "(b) Barking",
+            "label": "(b) Barking"
+        },
+        "SAKURA/data/Animal/audio/dog9.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Taking into account the animal in the provided sound and its biological characteristics, which of the following options best represents the method this animal uses to reproduce or give birth to its offspring? (a) Asexual reproduction (b) Marsupial reproduction (c) Viviparous (d) Oviparous",
+            "model_response": "(c) Viviparous",
+            "label": "(c) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/dog30.wav": {
+            "Explanation": "The model generated response correctly identifies the reproductive method as (d) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Considering the audio recording and what is typically known about animals that produce similar sounds, which of the listed reproductive methods most accurately matches the natural strategy used by the animal in the sound? (a) Oviparous (b) Marsupial reproduction (c) Asexual reproduction (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/dog61.wav": {
+            "Explanation": "The model generated response correctly identifies and selects option (c) Leash, which aligns with the ground truth answer. It adheres to the criteria of choosing one option from the list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "Taking into account the sound of the animal in the recording and what is commonly known about its care requirements, which of the listed items do you think is most essential for providing adequate care and support for this type of animal? (a) Insect trap (b) Aquarium filter (c) Leash (d) Birdcage",
+            "model_response": "(c) Leash",
+            "label": "(c) Leash"
+        },
+        "SAKURA/data/Animal/audio/dog31.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "When considering the sound of the animal in the audio and the typical care routines associated with animals in this category, which of the following items would most likely be required to provide for its needs and well-being? (a) Insect trap (b) Leash (c) Aquarium filter (d) Birdcage",
+            "model_response": "(b) Leash",
+            "label": "(b) Leash"
+        },
+        "SAKURA/data/Animal/audio/dog37.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound provided and what is commonly known about the biological classification and feeding behaviors of the animal in the sound, which diet type from the given options do you think most accurately describes what it primarily consumes? (a) Carnivore (b) Insectivore (c) Omnivore (d) Herbivore",
+            "model_response": "(c) Omnivore",
+            "label": "(c) Omnivore"
+        },
+        "SAKURA/data/Animal/audio/dog48.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "What feature is most likely for the animal that made this sound? (a) Claws (b) Feathers (c) Wings (d) Shell",
+            "model_response": "(b) Feathers",
+            "label": "(a) Claws"
+        },
+        "SAKURA/data/Animal/audio/dog56.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the principles of biological classification, which of the following animals shares the closest relationship with the animal represented in the audio file? (a) black-backed jackal (b) red fox (c) golden jackal (d) dhole",
+            "model_response": "(a) black-backed jackal",
+            "label": "(c) golden jackal"
+        },
+        "SAKURA/data/Animal/audio/dog51.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the audio recording and what you know about the usual movement patterns of the animal in the sound, which of the options listed below do you think best matches its primary mode of locomotion? (a) Swimming (b) Walking (c) Flying (d) Slithering",
+            "model_response": "(b) Walking",
+            "label": "(b) Walking"
+        },
+        "SAKURA/data/Animal/audio/dog42.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Viviparous, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, the response is judged as correct.\n",
+            "Judgement": "correct",
+            "instruction": "When analyzing the sound and the natural reproductive behaviors of the type of animal in the recording, which of the following methods would you say is most representative of how it typically produces its offspring? (a) Viviparous (b) Asexual reproduction (c) Oviparous (d) Marsupial reproduction",
+            "model_response": "(a) Viviparous",
+            "label": "(a) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/dog32.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the recording provided and considering the vocalization patterns commonly associated with animals of this kind, which of the listed sounds would you identify as being most similar to the one heard in the audio? (a) Clucking (b) Barking (c) Mooing (d) Croaking",
+            "model_response": "(b) Barking",
+            "label": "(b) Barking"
+        },
+        "SAKURA/data/Animal/audio/dog55.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the animal in the audio recording, along with the broader context of its natural environment and ecological role, which dietary classification listed below do you believe best fits the type of food it commonly eats to sustain itself? (a) Omnivore (b) Insectivore (c) Carnivore (d) Herbivore",
+            "model_response": "(a) Omnivore",
+            "label": "(a) Omnivore"
+        },
+        "SAKURA/data/Animal/audio/dog1.wav": {
+            "Explanation": "The model generated response chose option (b) Jumping between branches, which does not align with the ground truth answer (d) Wagging its tail. Since the model selected one option from the list but it is not the correct one, it should be judged incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "When analyzing the sound and considering the natural habits of this animal, which behavior in the provided options do you think most accurately aligns with how the animal in the sound is commonly known to act? (a) Hiding in shells (b) Jumping between branches (c) Flapping its wings (d) Wagging its tail",
+            "model_response": "(b) Jumping between branches",
+            "label": "(d) Wagging its tail"
+        },
+        "SAKURA/data/Animal/audio/dog50.wav": {
+            "Explanation": "The model generated response chose option (a) Hiding in shells, which does not align with the ground truth answer (d) Wagging its tail. Since the model selected one option from the list but it is not the correct one, it should be judged incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "Based on the sound in the audio, which of the following actions best represents the behavior typically seen in the type of animal making the provided sound? (a) Hiding in shells (b) Flapping its wings (c) Jumping between branches (d) Wagging its tail",
+            "model_response": "(a) Hiding in shells",
+            "label": "(d) Wagging its tail"
+        },
+        "SAKURA/data/Animal/audio/dog8.wav": {
+            "Explanation": "The model generated response correctly identifies the dietary category as (a) Omnivore, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Given the provided audio and reflecting on the natural habits of animals in the recording, which dietary category in the list below do you think best aligns with what this animal primarily eats in its ecosystem? (a) Omnivore (b) Insectivore (c) Herbivore (d) Carnivore",
+            "model_response": "(a) Omnivore",
+            "label": "(a) Omnivore"
+        },
+        "SAKURA/data/Animal/audio/dog21.wav": {
+            "Explanation": "The model generated response correctly identifies the sound produced by the animal as \"Barking,\" which aligns with the ground truth answer. It also chooses one option from the option list, fulfilling the criteria for a correct response. \n",
+            "Judgement": "correct",
+            "instruction": "Reflecting on the sound in the audio and taking into account the natural vocalization behaviors of animals, which of the listed options would you say is the closest match to the sound produced by the animal in the provided audio? (a) Mooing (b) Barking (c) Clucking (d) Chirping",
+            "model_response": "(b) Barking",
+            "label": "(b) Barking"
+        },
+        "SAKURA/data/Animal/audio/dog14.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) Barking, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Considering the audio and the types of sounds typically made by animals, which vocalization listed below best aligns with the animal in the recording? (a) Clucking (b) Mooing (c) Croaking (d) Barking",
+            "model_response": "(d) Barking",
+            "label": "(d) Barking"
+        },
+        "SAKURA/data/Animal/audio/dog4.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) golden jackal, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "In the context of evolutionary biology and biological classification, which of the animals provided is the most similar to the one in the audio file in terms of taxonomic hierarchy? (a) golden jackal (b) red fox (c) black-backed jackal (d) side-striped jackal",
+            "model_response": "(a) golden jackal",
+            "label": "(a) golden jackal"
+        },
+        "SAKURA/data/Animal/audio/dog46.wav": {
+            "Explanation": "The model generated response correctly identifies option (a) Claws, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "From the sound provided, what physical characteristic seems to be the most likely match for the animal making this sound? Consider its natural behaviors and appearance and choose one from the following options. (a) Claws (b) Horns (c) Hooves (d) Tentacles",
+            "model_response": "(a) Claws",
+            "label": "(a) Claws"
+        },
+        "SAKURA/data/Animal/audio/dog38.wav": {
+            "Explanation": "The model generated response chose option (b) \"Flapping its wings,\" which does not align with the ground truth answer (c) \"Wagging its tail.\" Since the model selected one option from the list but it is not the correct one, it should be judged incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "Considering the audio recording, which of these behaviors is most likely to match how the animal in the recording commonly acts? (a) Jumping between branches (b) Flapping its wings (c) Wagging its tail (d) Hiding in shells",
+            "model_response": "(b) Flapping its wings",
+            "label": "(c) Wagging its tail"
+        },
+        "SAKURA/data/Animal/audio/dog62.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Which of the listed features aligns best with the physical appearance of the animal in the sound? (a) Wings (b) Hooves (c) Beak (d) Claws",
+            "model_response": "(d) Claws",
+            "label": "(d) Claws"
+        },
+        "SAKURA/data/Animal/audio/dog33.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "When analyzing the sound of the animal in the audio and reflecting on the movement styles common to animals in this group, which locomotion method from the given list would you consider most appropriate for this animal? (a) Flying (b) Walking (c) Swimming (d) Slithering",
+            "model_response": "(b) Walking",
+            "label": "(b) Walking"
+        },
+        "SAKURA/data/Animal/audio/dog18.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Reflecting on the sound provided in the audio, and considering the typical habits, behaviors, and care practices needed for animals in the audio, which of the following items would you identify as being most important in caring for the animal producing the sound? (a) Birdcage (b) Aquarium filter (c) Leash (d) Insect trap",
+            "model_response": "(c) Leash",
+            "label": "(c) Leash"
+        },
+        "SAKURA/data/Animal/audio/dog20.wav": {
+            "Explanation": "The model generated response correctly identifies the locomotion method as (b) Walking, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "Taking into account the animal’s likely biological traits and its ecological habits, which of the following locomotion methods best corresponds to how the animal in the audio typically moves in its natural habitat? (a) Flying (b) Walking (c) Swimming (d) Slithering",
+            "model_response": "(b) Walking",
+            "label": "(b) Walking"
+        },
+        "SAKURA/data/Animal/audio/dog26.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Taking into account the taxonomic classification system, including categories such as family, genus, and species, which of the listed animals is most closely connected to the animal observed in the audio recording? (a) side-striped jackal (b) black-backed jackal (c) golden jackal (d) red fox",
+            "model_response": "(c) golden jackal",
+            "label": "(c) golden jackal"
+        },
+        "SAKURA/data/Animal/audio/dog22.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the sound of the animal in the recording and taking into account its typical habitat and feeding behaviors, which of the following options most accurately represents its primary diet in terms of the types of food it usually consumes? (a) Carnivore (b) Insectivore (c) Omnivore (d) Herbivore",
+            "model_response": "(a) Carnivore",
+            "label": "(c) Omnivore"
+        },
+        "SAKURA/data/Animal/audio/dog53.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) Leash, which aligns with the ground truth answer. It chooses one option from the option list, and that option is the same as the ground truth answer. Therefore, it meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the audio recording and the natural requirements of the animal making the sound, which of the items listed below is most closely associated with providing appropriate care and support for its well-being? (a) Insect trap (b) Aquarium filter (c) Birdcage (d) Leash",
+            "model_response": "(d) Leash",
+            "label": "(d) Leash"
+        },
+        "SAKURA/data/Animal/audio/dog23.wav": {
+            "Explanation": "The model generated response correctly identifies option (d) Claws, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Using the sound as a clue, which of these physical attributes would you associate most strongly with the animal making the sound, considering what you know about it? (a) Horns (b) Scales (c) Feathers (d) Claws",
+            "model_response": "(d) Claws",
+            "label": "(d) Claws"
+        },
+        "SAKURA/data/Animal/audio/dog64.wav": {
+            "Explanation": "The model generated response correctly identifies the locomotion mode as (b) Walking, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Given the sound provided and the biological characteristics associated with this type of animal in the sound, which locomotion mode listed below do you believe is the most fitting and accurate representation of how it navigates its environment? (a) Swimming (b) Walking (c) Slithering (d) Flying",
+            "model_response": "(b) Walking",
+            "label": "(b) Walking"
+        },
+        "SAKURA/data/Animal/audio/dog29.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound provided, and considering the ecological and biological traits of animals in this sound, which reproductive method listed below best matches how the animal in the audio gives birth or reproduces? (a) Asexual reproduction (b) Viviparous (c) Oviparous (d) Marsupial reproduction",
+            "model_response": "(b) Viviparous",
+            "label": "(b) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat8.wav": {
+            "Explanation": "The model generated response correctly identifies the method used by the animal in question to produce offspring as (d) Viviparous, which aligns with the ground truth answer. The model has chosen one option from the option list, and it matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "From the provided recording, and reflecting on the typical reproduction strategies of animals producing similar sounds, which of the following best describes the method used by the animal in question to produce offspring? (a) Marsupial reproduction (b) Oviparous (c) Asexual reproduction (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat66.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Walking, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "Which of the following options best represents the primary way the animal in the audio moves? (a) Walking (b) Slithering (c) Flying (d) Swimming",
+            "model_response": "(a) Walking",
+            "label": "(a) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat13.wav": {
+            "Explanation": "The model generated response is \"(c) Claws,\" which directly matches the ground truth answer of \"(c) Claws.\" The model has chosen one option from the option list, and it aligns perfectly with the ground truth answer. Therefore, it meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Which physical trait best matches the animal in this audio? (a) Feathers (b) Webbed feet (c) Claws (d) Shell",
+            "model_response": "(c) Claws",
+            "label": "(c) Claws"
+        },
+        "SAKURA/data/Animal/audio/cat15.wav": {
+            "Explanation": "The model generated response correctly identifies the diet type as (b) Carnivore, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound of the animal in the audio, which of the following diet types most accurately describes what it primarily eats? (a) Insectivore (b) Carnivore (c) Herbivore (d) Omnivore",
+            "model_response": "(b) Carnivore",
+            "label": "(b) Carnivore"
+        },
+        "SAKURA/data/Animal/audio/cat63.wav": {
+            "Explanation": "The model generated response is \"(d) Purring,\" which directly matches the ground truth answer of \"(d) Purring.\" The model has chosen one option from the option list, and it aligns perfectly with the ground truth answer. Therefore, it meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Considering the animal in the audio, what is its most typical behavior from the given list? (a) Flapping its wings (b) Hiding in shells (c) Swimming in open water (d) Purring",
+            "model_response": "(d) Purring",
+            "label": "(d) Purring"
+        },
+        "SAKURA/data/Animal/audio/dog45.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound provided, which diet type from the list below is most likely to match the feeding habits of the animal in the sound? (a) Herbivore (b) Carnivore (c) Omnivore (d) Insectivore",
+            "model_response": "(b) Carnivore",
+            "label": "(c) Omnivore"
+        },
+        "SAKURA/data/Animal/audio/dog0.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the sound of the animal in the audio and reflecting on the usual items or tools required for animals in this group, which option best matches what is commonly needed to take care of this animal? (a) Leash (b) Insect trap (c) Birdcage (d) Aquarium filter",
+            "model_response": "(a) Leash",
+            "label": "(a) Leash"
+        },
+        "SAKURA/data/Animal/audio/cat32.wav": {
+            "Explanation": "The model generated response correctly identifies the diet category as (c) Carnivore, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "From the provided options, which diet category best matches the animal in the recording? (a) Omnivore (b) Insectivore (c) Carnivore (d) Herbivore",
+            "model_response": "(c) Carnivore",
+            "label": "(c) Carnivore"
+        },
+        "SAKURA/data/Animal/audio/cat4.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Meowing, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, the response is judged as correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound in the recording, which of the listed vocalizations is most similar to the one made by the animal in the recording? (a) Meowing (b) Croaking (c) Chirping (d) Mooing",
+            "model_response": "(a) Meowing",
+            "label": "(a) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat31.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the provided recording, and reflecting on the characteristics of the sound made by the animal shown in the recording, which of the listed vocalizations do you believe best resembles it? (a) Chirping (b) Croaking (c) Meowing (d) Mooing",
+            "model_response": "(c) Meowing",
+            "label": "(c) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat24.wav": {
+            "Explanation": "The model generated response correctly identifies the reproductive method as (b) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound, which reproductive method best describes how the animal in the audio gives birth or produces offspring? (a) Asexual reproduction (b) Viviparous (c) Oviparous (d) Marsupial reproduction",
+            "model_response": "(b) Viviparous",
+            "label": "(b) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat61.wav": {
+            "Explanation": "The model generated response chose option (a) \"Flying between trees,\" which does not align with the ground truth answer (b) \"Purring.\" Since the model selected one option from the list but it is not the correct one, it should be judged incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "From the behaviors provided, which one is most representative of how this animal in the provided audio usually acts? (a) Flying between trees (b) Purring (c) Swimming in open water (d) Hiding in shells",
+            "model_response": "(a) Flying between trees",
+            "label": "(b) Purring"
+        },
+        "SAKURA/data/Animal/audio/cat14.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "When listening to the sound of the animal in the audio and considering what is commonly known about the behaviors of animals in this audio, which of the following actions best represents its natural or most typical way of acting? (a) Flying between trees (b) Purring (c) Hiding in shells (d) Swimming in open water",
+            "model_response": "(b) Purring",
+            "label": "(b) Purring"
+        },
+        "SAKURA/data/Animal/audio/cat25.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Litter box, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, the response is valid and meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound of the animal in the audio, which item listed below is most commonly required to care for it? (a) Litter box (b) Insect trap (c) Aquarium filter (d) Birdcage",
+            "model_response": "(a) Litter box",
+            "label": "(a) Litter box"
+        },
+        "SAKURA/data/Animal/audio/cat34.wav": {
+            "Explanation": "The model generated response states that none of the options are applicable, which means it does not choose any option from the option list. According to the criteria, this should be judged incorrect since it fails to select an option from the provided choices. \n",
+            "Judgement": "incorrect",
+            "instruction": "Based on the sound provided, which of the following options is the most likely way the animal in the sound moves? (a) Swimming (b) Flying (c) Walking (d) Slithering",
+            "model_response": "None of the options are applicable, as the sound is a cat meowing, which is a vocalization and not a movement.",
+            "label": "(c) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat28.wav": {
+            "Explanation": "The model generated response correctly identifies option (d) Viviparous, which aligns with the ground truth answer. It has chosen one option from the list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the provided options, which one reflects the reproductive strategy most commonly associated with the animal in the sound? (a) Asexual reproduction (b) Oviparous (c) Marsupial reproduction (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat37.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Litter box, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the provided options, which of these items is most suitable for meeting the care needs of the animal in the recording? (a) Litter box (b) Aquarium filter (c) Birdcage (d) Insect trap",
+            "model_response": "(a) Litter box",
+            "label": "(a) Litter box"
+        },
+        "SAKURA/data/Animal/audio/cat10.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Litter box, which aligns with the ground truth answer. It chooses one option from the option list and that option is the same as the ground truth answer. Therefore, it meets the criteria for being judged correct. ",
+            "Judgement": "correct",
+            "instruction": "Considering the animal in the audio, which of the listed items would you typically associate with taking proper care of it? (a) Litter box (b) Insect trap (c) Birdcage (d) Aquarium filter",
+            "model_response": "(a) Litter box",
+            "label": "(a) Litter box"
+        },
+        "SAKURA/data/Animal/audio/cat26.wav": {
+            "Explanation": "The model generated response correctly identifies the diet type as (b) Carnivore, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Which of the listed diet types best reflects the main type of food the animal in the provided sound consumes in its natural habitat? (a) Insectivore (b) Carnivore (c) Herbivore (d) Omnivore",
+            "model_response": "(b) Carnivore",
+            "label": "(b) Carnivore"
+        },
+        "SAKURA/data/Animal/audio/cat3.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) Meowing, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Considering the sound of the animal in the recording, which vocalization type is most comparable to it? (a) Clucking (b) Mooing (c) Croaking (d) Meowing",
+            "model_response": "(d) Meowing",
+            "label": "(d) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat0.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the given options, which sound is the best match for the vocalization of the animal in the provided sound? (a) Croaking (b) Chirping (c) Clucking (d) Meowing",
+            "model_response": "(d) Meowing",
+            "label": "(d) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat35.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "What physical feature does the animal in the provided audio segment have? (a) Tentacles (b) Fins (c) Claws (d) Wings",
+            "model_response": "(c) Claws",
+            "label": "(c) Claws"
+        },
+        "SAKURA/data/Animal/audio/cat30.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the characteristics of the animal in the audio, which of the listed methods best aligns with how it reproduces? (a) Viviparous (b) Asexual reproduction (c) Oviparous (d) Marsupial reproduction",
+            "model_response": "(a) Viviparous",
+            "label": "(a) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat49.wav": {
+            "Explanation": "The model generated response correctly identifies the reproductive method as (a) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Reflecting on the animal heard in the recording, what is its most likely reproductive method from the given choices? (a) Viviparous (b) Asexual reproduction (c) Oviparous (d) Marsupial reproduction",
+            "model_response": "(a) Viviparous",
+            "label": "(a) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat7.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Which of the following behaviors best describes the typical actions associated with the animal in the recording? (a) Flying between trees (b) Purring (c) Swimming in open water (d) Flapping its wings",
+            "model_response": "(b) Purring",
+            "label": "(b) Purring"
+        },
+        "SAKURA/data/Animal/audio/cat64.wav": {
+            "Explanation": "The model generated response chose option (d) Scales, which does not align with the ground truth answer (b) Claws. Since the model selected one option from the option list but it is incorrect, it should be judged as incorrect. \n",
+            "Judgement": "incorrect",
+            "instruction": "What physical attribute is most plausible for the animal that produced this sound? (a) Hooves (b) Claws (c) Beak (d) Scales",
+            "model_response": "(d) Scales",
+            "label": "(b) Claws"
+        },
+        "SAKURA/data/Animal/audio/cat33.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the provided list, which locomotion method is most suitable for the animal heard in the audio? (a) Swimming (b) Slithering (c) Flying (d) Walking",
+            "model_response": "(d) Walking",
+            "label": "(d) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat16.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the audio clues, which of the following physical traits is most likely associated with the animal in the audio? (a) Fins (b) Hooves (c) Claws (d) Feathers",
+            "model_response": "(c) Claws",
+            "label": "(c) Claws"
+        },
+        "SAKURA/data/Animal/audio/cat43.wav": {
+            "Explanation": "The model generated response correctly identifies the behavior associated with the animal making the sound as (d) Purring, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the audio recording, and considering the common habits and actions of animals in this audio, which behavior from the options below is most likely associated with the animal making the sound? (a) Flying between trees (b) Swimming in open water (c) Hiding in shells (d) Purring",
+            "model_response": "(d) Purring",
+            "label": "(d) Purring"
+        },
+        "SAKURA/data/Animal/audio/cat50.wav": {
+            "Explanation": "The model generated response correctly identifies option (d) Viviparous, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the audio, which of the following reproductive methods would you associate with the animal producing the sound? (a) Asexual reproduction (b) Oviparous (c) Marsupial reproduction (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat57.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Walking, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, the response is deemed correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the listed locomotion types, which one matches the typical movement of the animal in the sound? (a) Walking (b) Slithering (c) Swimming (d) Flying",
+            "model_response": "(a) Walking",
+            "label": "(a) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat47.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) Litter box, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. Therefore, the response is judged as correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the characteristics of the animal producing the sound, which item would you consider most essential for ensuring its well-being? (a) Insect trap (b) Birdcage (c) Aquarium filter (d) Litter box",
+            "model_response": "(d) Litter box",
+            "label": "(d) Litter box"
+        },
+        "SAKURA/data/Animal/audio/cat38.wav": {
+            "Explanation": "The model generated response correctly identifies option (c) Meowing, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. Therefore, the response is valid and meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the audio, which of these sounds is most likely to be similar to the one made by the animal in the recording? (a) Chirping (b) Croaking (c) Meowing (d) Mooing",
+            "model_response": "(c) Meowing",
+            "label": "(c) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat51.wav": {
+            "Explanation": "The model generated response correctly identifies the option (b) Carnivore, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "When analyzing the sound in the audio and reflecting on the natural dietary habits of the type of animal making this sound, which of the following categories best represents its primary diet or the type of food it relies on for survival? (a) Omnivore (b) Carnivore (c) Herbivore (d) Insectivore",
+            "model_response": "(b) Carnivore",
+            "label": "(b) Carnivore"
+        },
+        "SAKURA/data/Animal/audio/cat46.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Reflecting on the audio provided, which of the listed sounds do you think most closely resembles the vocalization of this animal? (a) Chirping (b) Mooing (c) Meowing (d) Croaking",
+            "model_response": "(c) Meowing",
+            "label": "(c) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat45.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Taking into account the sound from the recording and the natural tendencies of this type of animal making the sound, which of the following behaviors is most representative of how it typically acts? (a) Flying between trees (b) Swimming in open water (c) Purring (d) Hiding in shells",
+            "model_response": "(c) Purring",
+            "label": "(c) Purring"
+        },
+        "SAKURA/data/Animal/audio/cat11.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the given choices, which dietary classification is most appropriate for the animal you heard in the recording? (a) Omnivore (b) Carnivore (c) Insectivore (d) Herbivore",
+            "model_response": "(b) Carnivore",
+            "label": "(b) Carnivore"
+        },
+        "SAKURA/data/Animal/audio/cat20.wav": {
+            "Explanation": "The model generated response correctly identifies the locomotion method as (c) Walking, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Considering the sound provided in the audio and the natural behaviors typically exhibited by animals in this audio, which of the following locomotion methods most accurately describes how the animal in the audio moves? (a) Slithering (b) Swimming (c) Walking (d) Flying",
+            "model_response": "(c) Walking",
+            "label": "(c) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat6.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the sound and the characteristics of the animal producing it, which item would typically be needed to ensure its health and well-being? (a) Aquarium filter (b) Litter box (c) Birdcage (d) Insect trap",
+            "model_response": "(b) Litter box",
+            "label": "(b) Litter box"
+        },
+        "SAKURA/data/Animal/audio/cat36.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the audio provided, which of the following options best describes the primary mode of locomotion for the animal in the sound? (a) Walking (b) Flying (c) Swimming (d) Slithering",
+            "model_response": "(a) Walking",
+            "label": "(a) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat56.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Litter box, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. Therefore, the response is deemed correct.\n",
+            "Judgement": "correct",
+            "instruction": "When considering the sound of the animal in the audio and the typical care routines associated with animals in this category, which of the following items would most likely be required to provide for its needs and well-being? (a) Litter box (b) Aquarium filter (c) Birdcage (d) Insect trap",
+            "model_response": "(a) Litter box",
+            "label": "(a) Litter box"
+        },
+        "SAKURA/data/Animal/audio/cat41.wav": {
+            "Explanation": "The model generated response correctly identifies the behavior \"Purring\" which aligns with the ground truth answer. It chooses one option from the option list and that option matches the ground truth answer. Therefore, it meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "When analyzing the sound and considering the natural habits of this animal, which behavior in the provided options do you think most accurately aligns with how the animal in the sound is commonly known to act? (a) Swimming in open water (b) Hiding in shells (c) Flying between trees (d) Purring",
+            "model_response": "(d) Purring",
+            "label": "(d) Purring"
+        },
+        "SAKURA/data/Animal/audio/cat23.wav": {
+            "Explanation": "The model generated response correctly identifies the sound as (c) Meowing, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the recording provided and considering the vocalization patterns commonly associated with animals of this kind, which of the listed sounds would you identify as being most similar to the one heard in the audio? (a) Croaking (b) Clucking (c) Meowing (d) Mooing",
+            "model_response": "(c) Meowing",
+            "label": "(c) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat44.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the sound provided, which of the following physical characteristics do you think is most consistent with the appearance or features of the animal in the audio? (a) Scales (b) Hooves (c) Fins (d) Claws",
+            "model_response": "(d) Claws",
+            "label": "(d) Claws"
+        },
+        "SAKURA/data/Animal/audio/cat2.wav": {
+            "Explanation": "The model generated response correctly identifies the option (c) Meowing, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "When analyzing the sound in the audio and reflecting on the typical vocalizations of animals in this category, which of the following listed sounds most accurately resembles the vocalization produced by the animal in the recording? (a) Croaking (b) Chirping (c) Meowing (d) Clucking",
+            "model_response": "(c) Meowing",
+            "label": "(c) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat65.wav": {
+            "Explanation": "The model generated response correctly identifies option (b) Claws, which aligns with the ground truth answer. It chooses one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the animal in the provided audio segment, which of the following physical attributes would you associate with it most confidently? (a) Fins (b) Claws (c) Scales (d) Webbed feet",
+            "model_response": "(b) Claws",
+            "label": "(b) Claws"
+        },
+        "SAKURA/data/Animal/audio/cat27.wav": {
+            "Explanation": "The model generated response correctly identifies option (b) Purring, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Reflecting on the animal in the provided sound and what is known about its biological characteristics and common behaviors, which of the listed actions would you say best represents this animal? (a) Hiding in shells (b) Purring (c) Swimming in open water (d) Flapping its wings",
+            "model_response": "(b) Purring",
+            "label": "(b) Purring"
+        },
+        "SAKURA/data/Animal/audio/cat58.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound provided and what is commonly known about the biological classification and feeding behaviors of the animal in the sound, which diet type from the given options do you think most accurately describes what it primarily consumes? (a) Carnivore (b) Insectivore (c) Omnivore (d) Herbivore",
+            "model_response": "(a) Carnivore",
+            "label": "(a) Carnivore"
+        },
+        "SAKURA/data/Animal/audio/cat54.wav": {
+            "Explanation": "The model generated response correctly identifies the option (b) Litter box, which aligns with the ground truth answer. It chooses one option from the option list, and that option is the same as the ground truth answer. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Taking into account the sound of the animal in the recording and what is commonly known about its care requirements, which of the listed items do you think is most essential for providing adequate care and support for this type of animal? (a) Birdcage (b) Litter box (c) Insect trap (d) Aquarium filter",
+            "model_response": "(b) Litter box",
+            "label": "(b) Litter box"
+        },
+        "SAKURA/data/Animal/audio/cat18.wav": {
+            "Explanation": "The model generated response correctly identifies option (c) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Considering the audio recording and what is typically known about animals that produce similar sounds, which of the listed reproductive methods most accurately matches the natural strategy used by the animal in the sound? (a) Marsupial reproduction (b) Asexual reproduction (c) Viviparous (d) Oviparous",
+            "model_response": "(c) Viviparous",
+            "label": "(c) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat40.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Taking into account the animal in the provided sound and its biological characteristics, which of the following options best represents the method this animal uses to reproduce or give birth to its offspring? (a) Asexual reproduction (b) Marsupial reproduction (c) Oviparous (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat39.wav": {
+            "Explanation": "The model generated response correctly identifies option (b) Claws, which aligns with the ground truth answer. It chooses one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Which of the listed features aligns best with the physical appearance of the animal in the sound? (a) Shell (b) Claws (c) Beak (d) Fins",
+            "model_response": "(b) Claws",
+            "label": "(b) Claws"
+        },
+        "SAKURA/data/Animal/audio/cat53.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Litter box, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, the response is judged as correct.\n",
+            "Judgement": "correct",
+            "instruction": "Reflecting on the sound provided in the audio, and considering the typical habits, behaviors, and care practices needed for animals in the audio, which of the following items would you identify as being most important in caring for the animal producing the sound? (a) Litter box (b) Birdcage (c) Insect trap (d) Aquarium filter",
+            "model_response": "(a) Litter box",
+            "label": "(a) Litter box"
+        },
+        "SAKURA/data/Animal/audio/cat21.wav": {
+            "Explanation": "The model generated response correctly identifies option (d) Viviparous, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "When analyzing the sound and the natural reproductive behaviors of the type of animal in the recording, which of the following methods would you say is most representative of how it typically produces its offspring? (a) Oviparous (b) Asexual reproduction (c) Marsupial reproduction (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat59.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "What feature is most likely for the animal that made this sound? (a) Claws (b) Tentacles (c) Hooves (d) Webbed feet",
+            "model_response": "None",
+            "label": "(a) Claws"
+        },
+        "SAKURA/data/Animal/audio/cat29.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the animal in the audio recording, along with the broader context of its natural environment and ecological role, which dietary classification listed below do you believe best fits the type of food it commonly eats to sustain itself? (a) Insectivore (b) Herbivore (c) Omnivore (d) Carnivore",
+            "model_response": "(d) Carnivore",
+            "label": "(d) Carnivore"
+        },
+        "SAKURA/data/Animal/audio/cat9.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the audio recording and what you know about the usual movement patterns of the animal in the sound, which of the options listed below do you think best matches its primary mode of locomotion? (a) Walking (b) Swimming (c) Flying (d) Slithering",
+            "model_response": "(a) Walking",
+            "label": "(a) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat55.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound in the audio, which of the following actions best represents the behavior typically seen in the type of animal making the provided sound? (a) Swimming in open water (b) Purring (c) Flying between trees (d) Hiding in shells",
+            "model_response": "(b) Purring",
+            "label": "(b) Purring"
+        },
+        "SAKURA/data/Animal/audio/cat48.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Given the provided audio and reflecting on the natural habits of animals in the recording, which dietary category in the list below do you think best aligns with what this animal primarily eats in its ecosystem? (a) Insectivore (b) Herbivore (c) Omnivore (d) Carnivore",
+            "model_response": "(d) Carnivore",
+            "label": "(d) Carnivore"
+        },
+        "SAKURA/data/Animal/audio/cat5.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "When analyzing the sound of the animal in the audio and reflecting on the movement styles common to animals in this group, which locomotion method from the given list would you consider most appropriate for this animal? (a) Slithering (b) Swimming (c) Walking (d) Flying",
+            "model_response": "(c) Walking",
+            "label": "(c) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat17.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Reflecting on the sound in the audio and taking into account the natural vocalization behaviors of animals, which of the listed options would you say is the closest match to the sound produced by the animal in the provided audio? (a) Meowing (b) Croaking (c) Clucking (d) Chirping",
+            "model_response": "(a) Meowing",
+            "label": "(a) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat62.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Taking into account the animal’s likely biological traits and its ecological habits, which of the following locomotion methods best corresponds to how the animal in the audio typically moves in its natural habitat? (a) Flying (b) Swimming (c) Walking (d) Slithering",
+            "model_response": "(c) Walking",
+            "label": "(c) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat1.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the audio recording and the natural requirements of the animal making the sound, which of the items listed below is most closely associated with providing appropriate care and support for its well-being? (a) Insect trap (b) Birdcage (c) Aquarium filter (d) Litter box",
+            "model_response": "(d) Litter box",
+            "label": "(d) Litter box"
+        },
+        "SAKURA/data/Animal/audio/cat19.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the audio and the types of sounds typically made by animals, which vocalization listed below best aligns with the animal in the recording? (a) Meowing (b) Clucking (c) Chirping (d) Croaking",
+            "model_response": "(a) Meowing",
+            "label": "(a) Meowing"
+        },
+        "SAKURA/data/Animal/audio/cat42.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound provided, and considering the ecological and biological traits of animals in this sound, which reproductive method listed below best matches how the animal in the audio gives birth or reproduces? (a) Marsupial reproduction (b) Asexual reproduction (c) Viviparous (d) Oviparous",
+            "model_response": "(c) Viviparous",
+            "label": "(c) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cat52.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the sound of the animal in the recording and taking into account its typical habitat and feeding behaviors, which of the following options most accurately represents its primary diet in terms of the types of food it usually consumes? (a) Omnivore (b) Carnivore (c) Herbivore (d) Insectivore",
+            "model_response": "(b) Carnivore",
+            "label": "(b) Carnivore"
+        },
+        "SAKURA/data/Animal/audio/cat60.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the sound provided, what physical characteristic seems to be the most likely match for the animal making this sound? Consider its natural behaviors and appearance and choose one from the following options. (a) Claws (b) Feathers (c) Fins (d) Wings",
+            "model_response": "(b) Feathers",
+            "label": "(a) Claws"
+        },
+        "SAKURA/data/Animal/audio/cat67.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the audio recording, which of these behaviors is most likely to match how the animal in the recording commonly acts? (a) Swimming in open water (b) Hiding in shells (c) Purring (d) Flapping its wings",
+            "model_response": "(c) Purring",
+            "label": "(c) Purring"
+        },
+        "SAKURA/data/Animal/audio/cat12.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Given the sound provided and the biological characteristics associated with this type of animal in the sound, which locomotion mode listed below do you believe is the most fitting and accurate representation of how it navigates its environment? (a) Flying (b) Walking (c) Slithering (d) Swimming",
+            "model_response": "(b) Walking",
+            "label": "(b) Walking"
+        },
+        "SAKURA/data/Animal/audio/cat22.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Using the sound as a clue, which of these physical attributes would you associate most strongly with the animal making the sound, considering what you know about it? (a) Hooves (b) Shell (c) Feathers (d) Claws",
+            "model_response": "(d) Claws",
+            "label": "(d) Claws"
+        },
+        "SAKURA/data/Animal/audio/frog48.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "In the context of Linnaean taxonomy and the phylogenetic system used to determine evolutionary relationships, which animal on the list is the closest in taxonomic grouping to the animal identified in the audio sample? (a) Caecilian (b) newt (c) toad (d) axolotl",
+            "model_response": "(a) Caecilian",
+            "label": "(c) toad"
+        },
+        "SAKURA/data/Animal/audio/frog40.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From a biological taxonomy perspective, which of these animals is most closest to the animal in the audio clip? (a) toad (b) salamanders (c) newt (d) axolotl",
+            "model_response": "(b) salamanders",
+            "label": "(a) toad"
+        },
+        "SAKURA/data/Animal/audio/frog7.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on biological classification systems, which of the following animals is most closely related to the one in the audio file? (a) axolotl (b) salamanders (c) newt (d) toad",
+            "model_response": "(a) axolotl",
+            "label": "(d) toad"
+        },
+        "SAKURA/data/Animal/audio/frog51.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on Linnaean classification, which of these animals is phylogenetically closest to the animal in the recording? (a) newt (b) toad (c) axolotl (d) Caecilian",
+            "model_response": "(a) newt",
+            "label": "(b) toad"
+        },
+        "SAKURA/data/Animal/audio/frog18.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Which animal in the list shares the closest phylogenetic lineage with the species identified in the audio file? (a) axolotl (b) toad (c) salamanders (d) newt",
+            "model_response": "(c) salamanders",
+            "label": "(b) toad"
+        },
+        "SAKURA/data/Animal/audio/frog47.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "According to the taxonomic hierarchy defined by biological classification, which animal is most closely related to the one in the audio file? (a) toad (b) salamanders (c) axolotl (d) Caecilian",
+            "model_response": "(c) axolotl",
+            "label": "(a) toad"
+        },
+        "SAKURA/data/Animal/audio/frog42.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on Linnaean taxonomy, which of these animals is most closely aligned with the one in the audio file? (a) salamanders (b) newt (c) Caecilian (d) toad",
+            "model_response": "(c) Caecilian",
+            "label": "(d) toad"
+        },
+        "SAKURA/data/Animal/audio/frog16.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the principles of biological classification, which of the following animals shares the closest relationship with the animal represented in the audio file? (a) Caecilian (b) axolotl (c) toad (d) newt",
+            "model_response": "(c) toad",
+            "label": "(c) toad"
+        },
+        "SAKURA/data/Animal/audio/frog19.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Taking into account the taxonomic classification system, including categories such as family, genus, and species, which of the listed animals is most closely connected to the animal observed in the audio recording? (a) Caecilian (b) axolotl (c) salamanders (d) toad",
+            "model_response": "(d) toad",
+            "label": "(d) toad"
+        },
+        "SAKURA/data/Animal/audio/frog27.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "In the context of evolutionary biology and biological classification, which of the animals provided is the most similar to the one in the audio file in terms of taxonomic hierarchy? (a) Caecilian (b) toad (c) newt (d) salamanders",
+            "model_response": "(b) toad",
+            "label": "(b) toad"
+        },
+        "SAKURA/data/Animal/audio/frog13.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "In the context of Linnaean taxonomy and the phylogenetic system used to determine evolutionary relationships, which animal on the list is the closest in taxonomic grouping to the animal identified in the audio sample? (a) toad (b) axolotl (c) Caecilian (d) salamanders",
+            "model_response": "(a) toad",
+            "label": "(a) toad"
+        },
+        "SAKURA/data/Animal/audio/frog65.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the sound of the animal in the audio and reflecting on the usual items or tools required for animals in this group, which option best matches what is commonly needed to take care of this animal? (a) Litter box (b) Birdcage (c) Water filter (d) Milking machine",
+            "model_response": "(c) Water filter",
+            "label": "(c) Water filter"
+        },
+        "SAKURA/data/Animal/audio/frog52.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "When listening to the sound of the animal in the audio and considering what is commonly known about the behaviors of animals in this audio, which of the following actions best represents its natural or most typical way of acting? (a) Wagging its tail (b) Flying between trees (c) Chewing cud (d) Leaping between surfaces",
+            "model_response": "(d) Leaping between surfaces",
+            "label": "(d) Leaping between surfaces"
+        },
+        "SAKURA/data/Animal/audio/frog0.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound provided, which diet type from the list below is most likely to match the feeding habits of the animal in the sound? (a) Omnivore (b) Insectivore (c) Carnivore (d) Herbivore",
+            "model_response": "(b) Insectivore",
+            "label": "(b) Insectivore"
+        },
+        "SAKURA/data/Animal/audio/frog28.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the provided recording, and reflecting on the characteristics of the sound made by the animal shown in the recording, which of the listed vocalizations do you believe best resembles it? (a) Barking (b) Mooing (c) Croaking (d) Clucking",
+            "model_response": "(c) Croaking",
+            "label": "(c) Croaking"
+        },
+        "SAKURA/data/Animal/audio/frog2.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the animal in the audio, what is its most typical behavior from the given list? (a) Leaping between surfaces (b) Wagging its tail (c) Flying between trees (d) Chewing cud",
+            "model_response": "(a) Leaping between surfaces",
+            "label": "(a) Leaping between surfaces"
+        },
+        "SAKURA/data/Animal/audio/frog56.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Which of the following options best represents the primary way the animal in the audio moves? (a) Running (b) Slithering (c) Hopping (d) Flying",
+            "model_response": "(c) Hopping",
+            "label": "(c) Hopping"
+        },
+        "SAKURA/data/Animal/audio/frog45.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound in the recording, which of the listed vocalizations is most similar to the one made by the animal in the recording? (a) Croaking (b) Chirping (c) Barking (d) Mooing",
+            "model_response": "(a) Croaking",
+            "label": "(a) Croaking"
+        },
+        "SAKURA/data/Animal/audio/frog44.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From a biological taxonomy perspective, which of these animals is most closest to the animal in the audio clip? (a) axolotl (b) toad (c) Caecilian (d) newt",
+            "model_response": "(c) Caecilian",
+            "label": "(b) toad"
+        },
+        "SAKURA/data/Animal/audio/frog30.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Which physical trait best matches the animal in this audio? (a) Hooves (b) Tentacles (c) Scales (d) Webbed feet",
+            "model_response": "(d) Webbed feet",
+            "label": "(d) Webbed feet"
+        },
+        "SAKURA/data/Animal/audio/frog37.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound of the animal in the audio, which of the following diet types most accurately describes what it primarily eats? (a) Insectivore (b) Omnivore (c) Carnivore (d) Herbivore",
+            "model_response": "(a) Insectivore",
+            "label": "(a) Insectivore"
+        },
+        "SAKURA/data/Animal/audio/frog60.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound of the animal in the audio, which item listed below is most commonly required to care for it? (a) Birdcage (b) Water filter (c) Milking machine (d) Litter box",
+            "model_response": "(d) Litter box",
+            "label": "(b) Water filter"
+        },
+        "SAKURA/data/Animal/audio/frog22.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "What physical feature does the animal in the provided audio segment have? (a) Hooves (b) Feathers (c) Tentacles (d) Webbed feet",
+            "model_response": "(d) Webbed feet",
+            "label": "(d) Webbed feet"
+        },
+        "SAKURA/data/Animal/audio/frog35.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the given options, which sound is the best match for the vocalization of the animal in the provided sound? (a) Chirping (b) Mooing (c) Croaking (d) Barking",
+            "model_response": "(c) Croaking",
+            "label": "(c) Croaking"
+        },
+        "SAKURA/data/Animal/audio/frog67.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on biological classification systems, which of the following animals is most closely related to the one in the audio file? (a) toad (b) axolotl (c) Caecilian (d) salamanders",
+            "model_response": "(d) salamanders",
+            "label": "(a) toad"
+        },
+        "SAKURA/data/Animal/audio/frog33.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the provided options, which diet category best matches the animal in the recording? (a) Omnivore (b) Carnivore (c) Insectivore (d) Herbivore",
+            "model_response": "(c) Insectivore",
+            "label": "(c) Insectivore"
+        },
+        "SAKURA/data/Animal/audio/frog20.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound provided, which of the following options is the most likely way the animal in the sound moves? (a) Running (b) Hopping (c) Slithering (d) Flying",
+            "model_response": "(b) Hopping",
+            "label": "(b) Hopping"
+        },
+        "SAKURA/data/Animal/audio/frog23.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the provided options, which of these items is most suitable for meeting the care needs of the animal in the recording? (a) Litter box (b) Birdcage (c) Milking machine (d) Water filter",
+            "model_response": "(d) Water filter",
+            "label": "(d) Water filter"
+        },
+        "SAKURA/data/Animal/audio/frog24.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the behaviors provided, which one is most representative of how this animal in the provided audio usually acts? (a) Leaping between surfaces (b) Wagging its tail (c) Chewing cud (d) Flapping its wings",
+            "model_response": "(a) Leaping between surfaces",
+            "label": "(a) Leaping between surfaces"
+        },
+        "SAKURA/data/Animal/audio/frog59.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on Linnaean classification, which of these animals is phylogenetically closest to the animal in the recording? (a) Caecilian (b) toad (c) newt (d) salamanders",
+            "model_response": "(d) salamanders",
+            "label": "(b) toad"
+        },
+        "SAKURA/data/Animal/audio/frog6.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the animal in the audio, which of the listed items would you typically associate with taking proper care of it? (a) Litter box (b) Birdcage (c) Milking machine (d) Water filter",
+            "model_response": "(a) Litter box",
+            "label": "(d) Water filter"
+        },
+        "SAKURA/data/Animal/audio/frog8.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Which of the listed diet types best reflects the main type of food the animal in the provided sound consumes in its natural habitat? (a) Herbivore (b) Omnivore (c) Insectivore (d) Carnivore",
+            "model_response": "(c) Insectivore",
+            "label": "(c) Insectivore"
+        },
+        "SAKURA/data/Animal/audio/frog9.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the sound of the animal in the recording, which vocalization type is most comparable to it? (a) Mooing (b) Barking (c) Croaking (d) Chirping",
+            "model_response": "(c) Croaking",
+            "label": "(c) Croaking"
+        },
+        "SAKURA/data/Animal/audio/frog61.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the provided list, which locomotion method is most suitable for the animal heard in the audio? (a) Hopping (b) Slithering (c) Flying (d) Running",
+            "model_response": "(a) Hopping",
+            "label": "(a) Hopping"
+        },
+        "SAKURA/data/Animal/audio/frog36.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the audio clues, which of the following physical traits is most likely associated with the animal in the audio? (a) Tentacles (b) Webbed feet (c) Wings (d) Hooves",
+            "model_response": "(b) Webbed feet",
+            "label": "(b) Webbed feet"
+        },
+        "SAKURA/data/Animal/audio/frog55.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Which of the following behaviors best describes the typical actions associated with the animal in the recording? (a) Flapping its wings (b) Chewing cud (c) Flying between trees (d) Leaping between surfaces",
+            "model_response": "(a) Flapping its wings",
+            "label": "(d) Leaping between surfaces"
+        },
+        "SAKURA/data/Animal/audio/frog15.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the characteristics of the animal producing the sound, which item would you consider most essential for ensuring its well-being? (a) Litter box (b) Water filter (c) Birdcage (d) Milking machine",
+            "model_response": "(b) Water filter",
+            "label": "(b) Water filter"
+        },
+        "SAKURA/data/Animal/audio/frog64.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Taking into account the sound from the recording and the natural tendencies of this type of animal making the sound, which of the following behaviors is most representative of how it typically acts? (a) Leaping between surfaces (b) Wagging its tail (c) Flying between trees (d) Flapping its wings",
+            "model_response": "(a) Leaping between surfaces",
+            "label": "(a) Leaping between surfaces"
+        },
+        "SAKURA/data/Animal/audio/frog63.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Reflecting on the audio provided, which of the listed sounds do you think most closely resembles the vocalization of this animal? (a) Clucking (b) Mooing (c) Croaking (d) Chirping",
+            "model_response": "(d) Chirping",
+            "label": "(c) Croaking"
+        },
+        "SAKURA/data/Animal/audio/frog46.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the given choices, which dietary classification is most appropriate for the animal you heard in the recording? (a) Carnivore (b) Herbivore (c) Omnivore (d) Insectivore",
+            "model_response": "(c) Omnivore",
+            "label": "(d) Insectivore"
+        },
+        "SAKURA/data/Animal/audio/frog39.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "What physical attribute is most plausible for the animal that produced this sound? (a) Webbed feet (b) Wings (c) Feathers (d) Scales",
+            "model_response": "(a) Webbed feet",
+            "label": "(a) Webbed feet"
+        },
+        "SAKURA/data/Animal/audio/frog43.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) toad, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Which animal in the list shares the closest phylogenetic lineage with the species identified in the audio file? (a) toad (b) Caecilian (c) axolotl (d) salamanders",
+            "model_response": "(a) toad",
+            "label": "(a) toad"
+        },
+        "SAKURA/data/Animal/audio/frog66.wav": {
+            "Explanation": "The model generated response chose option (a) Carnivore, which does not align with the ground truth answer (b) Insectivore. Since the model selected one option from the list but it is incorrect, it should be judged as incorrect. \n",
+            "Judgement": "incorrect",
+            "instruction": "When analyzing the sound in the audio and reflecting on the natural dietary habits of the type of animal making this sound, which of the following categories best represents its primary diet or the type of food it relies on for survival? (a) Carnivore (b) Insectivore (c) Omnivore (d) Herbivore",
+            "model_response": "(a) Carnivore",
+            "label": "(b) Insectivore"
+        },
+        "SAKURA/data/Animal/audio/frog29.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) Croaking, which aligns with the ground truth answer. It chooses one option from the option list, and that option matches the correct answer provided. Therefore, the response is valid and meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the audio, which of these sounds is most likely to be similar to the one made by the animal in the recording? (a) Chirping (b) Barking (c) Mooing (d) Croaking",
+            "model_response": "(d) Croaking",
+            "label": "(d) Croaking"
+        },
+        "SAKURA/data/Animal/audio/frog17.wav": {
+            "Explanation": "The model generated response correctly identifies the option (c) Croaking, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "When analyzing the sound in the audio and reflecting on the typical vocalizations of animals in this category, which of the following listed sounds most accurately resembles the vocalization produced by the animal in the recording? (a) Chirping (b) Barking (c) Croaking (d) Mooing",
+            "model_response": "(c) Croaking",
+            "label": "(c) Croaking"
+        },
+        "SAKURA/data/Animal/audio/frog54.wav": {
+            "Explanation": "The model generated response chose option (a) Chewing cud, which does not align with the ground truth answer (d) Leaping between surfaces. Since the model selected one option from the list but it is not the correct one, it should be judged incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "Based on the audio recording, and considering the common habits and actions of animals in this audio, which behavior from the options below is most likely associated with the animal making the sound? (a) Chewing cud (b) Wagging its tail (c) Flying between trees (d) Leaping between surfaces",
+            "model_response": "(a) Chewing cud",
+            "label": "(d) Leaping between surfaces"
+        },
+        "SAKURA/data/Animal/audio/frog26.wav": {
+            "Explanation": "The model generated response correctly identifies option (a) \"Leaping between surfaces,\" which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Reflecting on the animal in the provided sound and what is known about its biological characteristics and common behaviors, which of the listed actions would you say best represents this animal? (a) Leaping between surfaces (b) Chewing cud (c) Flapping its wings (d) Flying between trees",
+            "model_response": "(a) Leaping between surfaces",
+            "label": "(a) Leaping between surfaces"
+        },
+        "SAKURA/data/Animal/audio/frog57.wav": {
+            "Explanation": "The model generated response chose option (a) Feathers, which does not align with the ground truth answer (c) Webbed feet. Since the model selected one option from the option list but it is incorrect in relation to the ground truth answer, it should be judged incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "Based on the animal in the provided audio segment, which of the following physical attributes would you associate with it most confidently? (a) Feathers (b) Tentacles (c) Webbed feet (d) Scales",
+            "model_response": "(a) Feathers",
+            "label": "(c) Webbed feet"
+        },
+        "SAKURA/data/Animal/audio/frog21.wav": {
+            "Explanation": "The model generated response chose option (d) newt, which does not align with the ground truth answer (a) toad. Since the model selected one option from the option list but it is incorrect, it should be judged as incorrect.\n",
+            "Judgement": "incorrect",
+            "instruction": "Based on Linnaean taxonomy, which of these animals is most closely aligned with the one in the audio file? (a) toad (b) salamanders (c) axolotl (d) newt",
+            "model_response": "(d) newt",
+            "label": "(a) toad"
+        },
+        "SAKURA/data/Animal/audio/frog1.wav": {
+            "Explanation": "The model generated response correctly identifies and selects option (d) Water filter, which aligns with the ground truth answer. It adheres to the criteria of choosing one option from the list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "When considering the sound of the animal in the audio and the typical care routines associated with animals in this category, which of the following items would most likely be required to provide for its needs and well-being? (a) Milking machine (b) Birdcage (c) Litter box (d) Water filter",
+            "model_response": "(d) Water filter",
+            "label": "(d) Water filter"
+        },
+        "SAKURA/data/Animal/audio/frog50.wav": {
+            "Explanation": "The model generated response chose option (a) Running, which does not align with the ground truth answer (c) Hopping. Since the model selected one option from the option list but it is incorrect, it should be judged as incorrect. ",
+            "Judgement": "incorrect",
+            "instruction": "Considering the sound provided in the audio and the natural behaviors typically exhibited by animals in this audio, which of the following locomotion methods most accurately describes how the animal in the audio moves? (a) Running (b) Flying (c) Hopping (d) Slithering",
+            "model_response": "(a) Running",
+            "label": "(c) Hopping"
+        },
+        "SAKURA/data/Animal/audio/frog4.wav": {
+            "Explanation": "The model generated response chose option (d) Carnivore, which does not align with the ground truth answer (b) Insectivore. Since the model selected one option from the list but it is incorrect, it should be judged as incorrect. \n",
+            "Judgement": "incorrect",
+            "instruction": "Based on the sound provided and what is commonly known about the biological classification and feeding behaviors of the animal in the sound, which diet type from the given options do you think most accurately describes what it primarily consumes? (a) Herbivore (b) Insectivore (c) Omnivore (d) Carnivore",
+            "model_response": "(d) Carnivore",
+            "label": "(b) Insectivore"
+        },
+        "SAKURA/data/Animal/audio/frog3.wav": {
+            "Explanation": "The model generated response chose option (a) Birdcage, which does not align with the ground truth answer (d) Water filter. Since the model selected one option from the list but it is not the correct one, it should be judged incorrect. \n",
+            "Judgement": "incorrect",
+            "instruction": "Taking into account the sound of the animal in the recording and what is commonly known about its care requirements, which of the listed items do you think is most essential for providing adequate care and support for this type of animal? (a) Birdcage (b) Litter box (c) Milking machine (d) Water filter",
+            "model_response": "(a) Birdcage",
+            "label": "(d) Water filter"
+        },
+        "SAKURA/data/Animal/audio/frog5.wav": {
+            "Explanation": "The model generated response correctly identifies the dietary classification as (b) Insectivore, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Considering the animal in the audio recording, along with the broader context of its natural environment and ecological role, which dietary classification listed below do you believe best fits the type of food it commonly eats to sustain itself? (a) Omnivore (b) Insectivore (c) Carnivore (d) Herbivore",
+            "model_response": "(b) Insectivore",
+            "label": "(b) Insectivore"
+        },
+        "SAKURA/data/Animal/audio/frog12.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) toad, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Considering the principles of biological classification, which of the following animals shares the closest relationship with the animal represented in the audio file? (a) toad (b) axolotl (c) Caecilian (d) salamanders",
+            "model_response": "(a) toad",
+            "label": "(a) toad"
+        },
+        "SAKURA/data/Animal/audio/frog31.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "According to the taxonomic hierarchy defined by biological classification, which animal is most closely related to the one in the audio file? (a) salamanders (b) axolotl (c) toad (d) Caecilian",
+            "model_response": "(b) axolotl",
+            "label": "(c) toad"
+        },
+        "SAKURA/data/Animal/audio/frog14.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the listed locomotion types, which one matches the typical movement of the animal in the sound? (a) Slithering (b) Hopping (c) Running (d) Flying",
+            "model_response": "(b) Hopping",
+            "label": "(b) Hopping"
+        },
+        "SAKURA/data/Animal/audio/frog41.wav": {
+            "Explanation": "The model generated response correctly identifies option (d) \"Leaping between surfaces,\" which aligns with the ground truth answer. It chooses one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "When analyzing the sound and considering the natural habits of this animal, which behavior in the provided options do you think most accurately aligns with how the animal in the sound is commonly known to act? (a) Flying between trees (b) Flapping its wings (c) Chewing cud (d) Leaping between surfaces",
+            "model_response": "(d) Leaping between surfaces",
+            "label": "(d) Leaping between surfaces"
+        },
+        "SAKURA/data/Animal/audio/frog58.wav": {
+            "Explanation": "The model generated response correctly identifies option (c) \"Leaping between surfaces,\" which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, the response is valid and meets the criteria for correctness.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound in the audio, which of the following actions best represents the behavior typically seen in the type of animal making the provided sound? (a) Chewing cud (b) Flapping its wings (c) Leaping between surfaces (d) Flying between trees",
+            "model_response": "(c) Leaping between surfaces",
+            "label": "(c) Leaping between surfaces"
+        },
+        "SAKURA/data/Animal/audio/frog34.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the audio provided, which of the following options best describes the primary mode of locomotion for the animal in the sound? (a) Slithering (b) Flying (c) Running (d) Hopping",
+            "model_response": "(d) Hopping",
+            "label": "(d) Hopping"
+        },
+        "SAKURA/data/Animal/audio/frog11.wav": {
+            "Explanation": "The model generated response correctly identifies one option from the option list, which is (b) Water filter. This aligns with the ground truth answer, which is also (b) Water filter. Therefore, the model's response meets the criteria for being correct.\n",
+            "Judgement": "correct",
+            "instruction": "Reflecting on the sound provided in the audio, and considering the typical habits, behaviors, and care practices needed for animals in the audio, which of the following items would you identify as being most important in caring for the animal producing the sound? (a) Litter box (b) Water filter (c) Milking machine (d) Birdcage",
+            "model_response": "(b) Water filter",
+            "label": "(b) Water filter"
+        },
+        "SAKURA/data/Animal/audio/cow41.wav": {
+            "Explanation": "The model generated response correctly identifies the method used by the animal to produce offspring as (c) Viviparous, which aligns with the ground truth answer. The model has chosen one option from the option list, and it matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "From the provided recording, and reflecting on the typical reproduction strategies of animals producing similar sounds, which of the following best describes the method used by the animal in question to produce offspring? (a) Oviparous (b) Marsupial reproduction (c) Viviparous (d) Asexual reproduction",
+            "model_response": "(c) Viviparous",
+            "label": "(c) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/frog32.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "From the sound and the characteristics of the animal producing it, which item would typically be needed to ensure its health and well-being? (a) Birdcage (b) Milking machine (c) Water filter (d) Litter box",
+            "model_response": "(c) Water filter",
+            "label": "(c) Water filter"
+        },
+        "SAKURA/data/Animal/audio/frog49.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the sound provided, which of the following physical characteristics do you think is most consistent with the appearance or features of the animal in the audio? (a) Hooves (b) Webbed feet (c) Tentacles (d) Wings",
+            "model_response": "(b) Webbed feet",
+            "label": "(b) Webbed feet"
+        },
+        "SAKURA/data/Animal/audio/cow62.wav": {
+            "Explanation": "The model generated response correctly identifies option (a) Viviparous, which aligns with the ground truth answer. It has chosen one option from the list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the provided options, which one reflects the reproductive strategy most commonly associated with the animal in the sound? (a) Viviparous (b) Marsupial reproduction (c) Asexual reproduction (d) Oviparous",
+            "model_response": "(a) Viviparous",
+            "label": "(a) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow14.wav": {
+            "Explanation": "The model generated response correctly identifies the reproduction method as (b) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Considering the characteristics of the animal in the audio, which of the listed methods best aligns with how it reproduces? (a) Oviparous (b) Viviparous (c) Marsupial reproduction (d) Asexual reproduction",
+            "model_response": "(b) Viviparous",
+            "label": "(b) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/frog38.wav": {
+            "Explanation": "The model generated response correctly identifies the option (b) Hopping, which aligns with the ground truth answer. It chooses one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the audio recording and what you know about the usual movement patterns of the animal in the sound, which of the options listed below do you think best matches its primary mode of locomotion? (a) Flying (b) Hopping (c) Running (d) Slithering",
+            "model_response": "(b) Hopping",
+            "label": "(b) Hopping"
+        },
+        "SAKURA/data/Animal/audio/frog53.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Webbed feet, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. Therefore, it meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "What feature is most likely for the animal that made this sound? (a) Webbed feet (b) Tentacles (c) Feathers (d) Wings",
+            "model_response": "(a) Webbed feet",
+            "label": "(a) Webbed feet"
+        },
+        "SAKURA/data/Animal/audio/cow47.wav": {
+            "Explanation": "The model generated response correctly identifies the reproductive method as (c) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Reflecting on the animal heard in the recording, what is its most likely reproductive method from the given choices? (a) Marsupial reproduction (b) Oviparous (c) Viviparous (d) Asexual reproduction",
+            "model_response": "(c) Viviparous",
+            "label": "(c) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/frog10.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) toad, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Taking into account the taxonomic classification system, including categories such as family, genus, and species, which of the listed animals is most closely connected to the animal observed in the audio recording? (a) axolotl (b) Caecilian (c) newt (d) toad",
+            "model_response": "(d) toad",
+            "label": "(d) toad"
+        },
+        "SAKURA/data/Animal/audio/frog25.wav": {
+            "Explanation": "The model generated response chose option (b) Scales, which does not align with the ground truth answer (a) Webbed feet. Since the model selected one option from the list but it is incorrect, it should be judged as incorrect. \n",
+            "Judgement": "incorrect",
+            "instruction": "Which of the listed features aligns best with the physical appearance of the animal in the sound? (a) Webbed feet (b) Scales (c) Feathers (d) Wings",
+            "model_response": "(b) Scales",
+            "label": "(a) Webbed feet"
+        },
+        "SAKURA/data/Animal/audio/frog62.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the recording provided and considering the vocalization patterns commonly associated with animals of this kind, which of the listed sounds would you identify as being most similar to the one heard in the audio? (a) Clucking (b) Chirping (c) Croaking (d) Mooing",
+            "model_response": "(b) Chirping",
+            "label": "(c) Croaking"
+        },
+        "SAKURA/data/Animal/audio/cow57.wav": {
+            "Explanation": "The model generated response correctly identifies the reproductive method as (d) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound, which reproductive method best describes how the animal in the audio gives birth or produces offspring? (a) Oviparous (b) Asexual reproduction (c) Marsupial reproduction (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow0.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct. ",
+            "Judgement": "correct",
+            "instruction": "Taking into account the animal in the provided sound and its biological characteristics, which of the following options best represents the method this animal uses to reproduce or give birth to its offspring? (a) Viviparous (b) Oviparous (c) Asexual reproduction (d) Marsupial reproduction",
+            "model_response": "(a) Viviparous",
+            "label": "(a) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow66.wav": {
+            "Explanation": "The model generated response correctly identifies the locomotion method as (c) Walking, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "When analyzing the sound of the animal in the audio and reflecting on the movement styles common to animals in this group, which locomotion method from the given list would you consider most appropriate for this animal? (a) Swimming (b) Flying (c) Walking (d) Hopping",
+            "model_response": "(c) Walking",
+            "label": "(c) Walking"
+        },
+        "SAKURA/data/Animal/audio/cow32.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Viviparous, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "When analyzing the sound and the natural reproductive behaviors of the type of animal in the recording, which of the following methods would you say is most representative of how it typically produces its offspring? (a) Viviparous (b) Oviparous (c) Marsupial reproduction (d) Asexual reproduction",
+            "model_response": "(a) Viviparous",
+            "label": "(a) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow60.wav": {
+            "Explanation": "The model generated response correctly identifies the reproductive method as (c) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound provided, and considering the ecological and biological traits of animals in this sound, which reproductive method listed below best matches how the animal in the audio gives birth or reproduces? (a) Marsupial reproduction (b) Oviparous (c) Viviparous (d) Asexual reproduction",
+            "model_response": "(c) Viviparous",
+            "label": "(c) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow53.wav": {
+            "Explanation": "The model generated response correctly identifies the sound produced by the animal as \"Mooing,\" which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Reflecting on the sound in the audio and taking into account the natural vocalization behaviors of animals, which of the listed options would you say is the closest match to the sound produced by the animal in the provided audio? (a) Barking (b) Chirping (c) Croaking (d) Mooing",
+            "model_response": "(d) Mooing",
+            "label": "(d) Mooing"
+        },
+        "SAKURA/data/Animal/audio/cow49.wav": {
+            "Explanation": "The model generated response correctly identifies the locomotion method as (d) Walking, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "Taking into account the animal’s likely biological traits and its ecological habits, which of the following locomotion methods best corresponds to how the animal in the audio typically moves in its natural habitat? (a) Flying (b) Swimming (c) Hopping (d) Walking",
+            "model_response": "(d) Walking",
+            "label": "(d) Walking"
+        },
+        "SAKURA/data/Animal/audio/cow10.wav": {
+            "Explanation": "The model generated response correctly identifies the behavior \"Chewing cud,\" which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Considering the audio recording, which of these behaviors is most likely to match how the animal in the recording commonly acts? (a) Flapping its wings (b) Chewing cud (c) Hiding in shells (d) Jumping between branches",
+            "model_response": "(b) Chewing cud",
+            "label": "(b) Chewing cud"
+        },
+        "SAKURA/data/Animal/audio/cow7.wav": {
+            "Explanation": "The model generated response correctly identifies the option (c) Milking machine, which aligns with the ground truth answer. It has chosen one option from the list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Based on the audio recording and the natural requirements of the animal making the sound, which of the items listed below is most closely associated with providing appropriate care and support for its well-being? (a) Insect trap (b) Perch (c) Milking machine (d) Birdcage",
+            "model_response": "(c) Milking machine",
+            "label": "(c) Milking machine"
+        },
+        "SAKURA/data/Animal/audio/cow63.wav": {
+            "Explanation": "The model generated response correctly identifies one option from the option list, which is (b) Hooves. This aligns perfectly with the ground truth answer, which is also (b) Hooves. Therefore, the model's response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the sound provided, what physical characteristic seems to be the most likely match for the animal making this sound? Consider its natural behaviors and appearance and choose one from the following options. (a) Beak (b) Hooves (c) Fins (d) Webbed feet",
+            "model_response": "(b) Hooves",
+            "label": "(b) Hooves"
+        },
+        "SAKURA/data/Animal/audio/cow45.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the audio, which of the following reproductive methods would you associate with the animal producing the sound? (a) Asexual reproduction (b) Viviparous (c) Marsupial reproduction (d) Oviparous",
+            "model_response": "(b) Viviparous",
+            "label": "(b) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow39.wav": {
+            "Explanation": "The model generated response correctly identifies the primary diet as (a) Herbivore, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "From the sound of the animal in the recording and taking into account its typical habitat and feeding behaviors, which of the following options most accurately represents its primary diet in terms of the types of food it usually consumes? (a) Herbivore (b) Insectivore (c) Omnivore (d) Carnivore",
+            "model_response": "(a) Herbivore",
+            "label": "(a) Herbivore"
+        },
+        "SAKURA/data/Animal/audio/cow44.wav": {
+            "Explanation": "The model generated response clearly states \"(b) Walking,\" which directly matches the ground truth answer of \"(b) Walking.\" The model has chosen one option from the option list, and it aligns perfectly with the ground truth answer. Therefore, it meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Given the sound provided and the biological characteristics associated with this type of animal in the sound, which locomotion mode listed below do you believe is the most fitting and accurate representation of how it navigates its environment? (a) Swimming (b) Walking (c) Flying (d) Hopping",
+            "model_response": "(b) Walking",
+            "label": "(b) Walking"
+        },
+        "SAKURA/data/Animal/audio/cow56.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the audio recording and what is typically known about animals that produce similar sounds, which of the listed reproductive methods most accurately matches the natural strategy used by the animal in the sound? (a) Oviparous (b) Asexual reproduction (c) Marsupial reproduction (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow34.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Milking machine, which aligns with the ground truth answer. It chooses one option from the option list, and that option matches the correct answer provided. Therefore, the response is deemed correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the sound of the animal in the audio and reflecting on the usual items or tools required for animals in this group, which option best matches what is commonly needed to take care of this animal? (a) Milking machine (b) Aquarium filter (c) Birdcage (d) Insect trap",
+            "model_response": "(a) Milking machine",
+            "label": "(a) Milking machine"
+        },
+        "SAKURA/data/Animal/audio/cow25.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) Mooing, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "From the provided recording, and reflecting on the characteristics of the sound made by the animal shown in the recording, which of the listed vocalizations do you believe best resembles it? (a) Croaking (b) Barking (c) Chirping (d) Mooing",
+            "model_response": "(d) Mooing",
+            "label": "(d) Mooing"
+        },
+        "SAKURA/data/Animal/audio/cow3.wav": {
+            "Explanation": "The model generated response correctly identifies the action \"Chewing cud,\" which aligns with the ground truth answer (d). It also chooses only one option from the provided list, fulfilling the criteria for a correct response. \n",
+            "Judgement": "correct",
+            "instruction": "When listening to the sound of the animal in the audio and considering what is commonly known about the behaviors of animals in this audio, which of the following actions best represents its natural or most typical way of acting? (a) Hiding in shells (b) Climbing trees (c) Flapping its wings (d) Chewing cud",
+            "model_response": "(d) Chewing cud",
+            "label": "(d) Chewing cud"
+        },
+        "SAKURA/data/Animal/audio/cow28.wav": {
+            "Explanation": "The model generated response correctly identifies the diet type as (b) Herbivore, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound of the animal in the audio, which of the following diet types most accurately describes what it primarily eats? (a) Carnivore (b) Herbivore (c) Insectivore (d) Omnivore",
+            "model_response": "(b) Herbivore",
+            "label": "(b) Herbivore"
+        },
+        "SAKURA/data/Animal/audio/cow64.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Herbivore, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound provided, which diet type from the list below is most likely to match the feeding habits of the animal in the sound? (a) Herbivore (b) Omnivore (c) Insectivore (d) Carnivore",
+            "model_response": "(a) Herbivore",
+            "label": "(a) Herbivore"
+        },
+        "SAKURA/data/Animal/audio/cow65.wav": {
+            "Explanation": "The model generated response correctly identifies the reproductive method as (d) Viviparous, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "Based on the sound, which reproductive method best describes how the animal in the audio gives birth or produces offspring? (a) Marsupial reproduction (b) Asexual reproduction (c) Oviparous (d) Viviparous",
+            "model_response": "(d) Viviparous",
+            "label": "(d) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow31.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Given the provided audio and reflecting on the natural habits of animals in the recording, which dietary category in the list below do you think best aligns with what this animal primarily eats in its ecosystem? (a) Carnivore (b) Herbivore (c) Insectivore (d) Omnivore",
+            "model_response": "(b) Herbivore",
+            "label": "(b) Herbivore"
+        },
+        "SAKURA/data/Animal/audio/cow16.wav": {
+            "Explanation": "The model generated response correctly identifies the option (d) Hooves, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "Which physical trait best matches the animal in this audio? (a) Feathers (b) Shell (c) Beak (d) Hooves",
+            "model_response": "(d) Hooves",
+            "label": "(d) Hooves"
+        },
+        "SAKURA/data/Animal/audio/cow61.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the audio and the types of sounds typically made by animals, which vocalization listed below best aligns with the animal in the recording? (a) Mooing (b) Chirping (c) Croaking (d) Clucking",
+            "model_response": "(a) Mooing",
+            "label": "(a) Mooing"
+        },
+        "SAKURA/data/Animal/audio/cow38.wav": {
+            "Explanation": "The model generated response correctly identifies the method used by the animal to produce offspring as (c) Viviparous, which aligns with the ground truth answer. The model has chosen one option from the option list, and it matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "From the provided recording, and reflecting on the typical reproduction strategies of animals producing similar sounds, which of the following best describes the method used by the animal in question to produce offspring? (a) Oviparous (b) Marsupial reproduction (c) Viviparous (d) Asexual reproduction",
+            "model_response": "(c) Viviparous",
+            "label": "(c) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow23.wav": {
+            "Explanation": "The model generated response correctly identifies the option (a) Viviparous, which aligns with the ground truth answer. It has chosen one option from the list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the provided options, which one reflects the reproductive strategy most commonly associated with the animal in the sound? (a) Viviparous (b) Oviparous (c) Marsupial reproduction (d) Asexual reproduction",
+            "model_response": "(a) Viviparous",
+            "label": "(a) Viviparous"
+        },
+        "SAKURA/data/Animal/audio/cow37.wav": {
+            "Explanation": "The model generated response directly states \"(b) Walking,\" which matches the ground truth answer of \"(b) Walking.\" This aligns with the criteria that the model must choose one option from the option list and that the chosen option must align with the ground truth answer. Therefore, the model's response is correct.\n",
+            "Judgement": "correct",
+            "instruction": "Which of the following options best represents the primary way the animal in the audio moves? (a) Flying (b) Walking (c) Hopping (d) Swimming",
+            "model_response": "(b) Walking",
+            "label": "(b) Walking"
+        },
+        "SAKURA/data/Animal/audio/cow67.wav": {
+            "Explanation": "The model generated response correctly identifies the option (c) Milking machine, which aligns with the ground truth answer. It chooses one option from the option list and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the provided options, which of these items is most suitable for meeting the care needs of the animal in the recording? (a) Insect trap (b) Perch (c) Milking machine (d) Aquarium filter",
+            "model_response": "(c) Milking machine",
+            "label": "(c) Milking machine"
+        },
+        "SAKURA/data/Animal/audio/cow13.wav": {
+            "Explanation": "The model generated response correctly identifies the behavior \"Chewing cud,\" which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. Therefore, the response meets the criteria for being judged correct.\n",
+            "Judgement": "correct",
+            "instruction": "From the behaviors provided, which one is most representative of how this animal in the provided audio usually acts? (a) Chewing cud (b) Climbing trees (c) Flapping its wings (d) Hiding in shells",
+            "model_response": "(a) Chewing cud",
+            "label": "(a) Chewing cud"
+        },
+        "SAKURA/data/Animal/audio/cow27.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Using the sound as a clue, which of these physical attributes would you associate most strongly with the animal making the sound, considering what you know about it? (a) Fins (b) Scales (c) Hooves (d) Feathers",
+            "model_response": "(c) Hooves",
+            "label": "(c) Hooves"
+        },
+        "SAKURA/data/Animal/audio/cow29.wav": {
+            "Explanation": "The model generated response correctly identifies the option (c) Mooing, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "From the given options, which sound is the best match for the vocalization of the animal in the provided sound? (a) Clucking (b) Croaking (c) Mooing (d) Chirping",
+            "model_response": "(c) Mooing",
+            "label": "(c) Mooing"
+        },
+        "SAKURA/data/Animal/audio/cow30.wav": {
+            "Explanation": "The model generated response correctly identifies the diet category as (b) Herbivore, which aligns with the ground truth answer. It has chosen one option from the option list, and that option matches the correct answer provided. \n",
+            "Judgement": "correct",
+            "instruction": "From the provided options, which diet category best matches the animal in the recording? (a) Omnivore (b) Herbivore (c) Carnivore (d) Insectivore",
+            "model_response": "(b) Herbivore",
+            "label": "(b) Herbivore"
+        },
+        "SAKURA/data/Animal/audio/cow55.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound in the recording, which of the listed vocalizations is most similar to the one made by the animal in the recording? (a) Mooing (b) Clucking (c) Croaking (d) Chirping",
+            "model_response": "(a) Mooing",
+            "label": "(a) Mooing"
+        },
+        "SAKURA/data/Animal/audio/cow6.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound of the animal in the audio, which item listed below is most commonly required to care for it? (a) Perch (b) Insect trap (c) Milking machine (d) Birdcage",
+            "model_response": "(c) Milking machine",
+            "label": "(c) Milking machine"
+        },
+        "SAKURA/data/Animal/audio/cow59.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Considering the animal in the audio, what is its most typical behavior from the given list? (a) Jumping between branches (b) Chewing cud (c) Flapping its wings (d) Hiding in shells",
+            "model_response": "(b) Chewing cud",
+            "label": "(b) Chewing cud"
+        },
+        "SAKURA/data/Animal/audio/cow2.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "Based on the sound provided, which of the following options is the most likely way the animal in the sound moves? (a) Swimming (b) Hopping (c) Flying (d) Walking",
+            "model_response": "(d) Walking",
+            "label": "(d) Walking"
+        },
+        "SAKURA/data/Animal/audio/cow9.wav": {
+            "Explanation": "No extracted explanation",
+            "Judgement": "No extracted judgement",
+            "instruction": "What physical feature does the animal in the provided audio segment have? (a) Feathers (b) Scales (c) Tentacles (d) Hooves",
+            "model_response": "(d) Hooves",
+            "label": "(d) Hooves"
+        }
+    }
+}
