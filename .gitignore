@@ -1,7 +1,6 @@
 .env
 SAKURA/
 preds/
-judge/
 logs/
 __pycache__/
 *.pyc
