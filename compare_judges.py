@@ -15,13 +15,15 @@ def calc_acc(path: str) -> dict:
         1 for v in data["results"].values()
         if v["Judgement"].lower().strip() == "correct"
     )
-    total = len(data["results"])
-    invalid = total - correct - sum(
+    incorrect = sum(
         1 for v in data["results"].values()
         if v["Judgement"].lower().strip() == "incorrect"
     )
-    return {"correct": correct, "total": total, "invalid": invalid,
-            "accuracy": correct / total * 100 if total else 0}
+    total_all = len(data["results"])
+    valid = correct + incorrect   # exclude errors from denominator
+    return {"correct": correct, "valid": valid, "total": total_all,
+            "coverage": valid / total_all * 100 if total_all else 0,
+            "accuracy": correct / valid * 100 if valid else 0}
 
 
 def main():
@@ -64,9 +66,10 @@ def main():
         for judge in args.judges:
             r = judge_results.get(judge)
             if r:
-                row += f"{r['accuracy']:>{col_w}.2f}"
+                cov = f"({r['coverage']:.0f}%)" if r['coverage'] < 100 else ""
+                row += f"{r['accuracy']:>{col_w}.2f}{cov:<4}"
                 all_correct[judge] += r["correct"]
-                all_total[judge] += r["total"]
+                all_total[judge] += r["valid"]
             else:
                 row += f"{'N/A':>{col_w}}"
         print(row)

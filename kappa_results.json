@@ -1,15 +1,15 @@
 {
   "Gender/single": {
     "gpt-4o": 1.0,
-    "gpt-4o-mini": NaN,
-    "gemini-2.5-flash-lite": 0.4690303844653463,
-    "gemini-3.1-flash-lite": 0.4690303844653463
+    "gpt-4o-mini": 1.0,
+    "gemini-2.5-flash-lite": 1.0,
+    "gemini-3.1-flash-lite": 1.0
   },
   "Gender/multi": {
     "gpt-4o": 1.0,
     "gpt-4o-mini": NaN,
-    "gemini-2.5-flash-lite": 0.8011580554848561,
-    "gemini-3.1-flash-lite": 0.8734537631687177
+    "gemini-2.5-flash-lite": 0.88390308176561,
+    "gemini-3.1-flash-lite": 0.9645078002836466
   },
   "Language/single": {
     "gpt-4o": NaN,
@@ -26,25 +26,25 @@
   "Emotion/single": {
     "gpt-4o": 1.0,
     "gpt-4o-mini": NaN,
-    "gemini-2.5-flash-lite": 0.9158320006733439,
-    "gemini-3.1-flash-lite": 0.9199426958243795
+    "gemini-2.5-flash-lite": 0.9864029202285886,
+    "gemini-3.1-flash-lite": 0.9909229294694707
   },
   "Emotion/multi": {
     "gpt-4o": 1.0,
-    "gpt-4o-mini": 0.22691854323898167,
-    "gemini-2.5-flash-lite": 0.7969027671997969,
-    "gemini-3.1-flash-lite": 0.8948917384906453
+    "gpt-4o-mini": 0.9122748125769273,
+    "gemini-2.5-flash-lite": 0.8746425767430139,
+    "gemini-3.1-flash-lite": 0.9815634502136176
   },
   "Animal/single": {
     "gpt-4o": 1.0,
-    "gpt-4o-mini": 0.2233875680497032,
-    "gemini-2.5-flash-lite": 0.9160962684919407,
-    "gemini-3.1-flash-lite": 0.9509694673501226
+    "gpt-4o-mini": 1.0,
+    "gemini-2.5-flash-lite": 0.9628482972136222,
+    "gemini-3.1-flash-lite": 1.0
   },
   "Animal/multi": {
     "gpt-4o": 1.0,
-    "gpt-4o-mini": 0.21444431227944963,
-    "gemini-2.5-flash-lite": 0.8573885686133849,
-    "gemini-3.1-flash-lite": 0.9296660014242634
+    "gpt-4o-mini": 0.9622209502003434,
+    "gemini-2.5-flash-lite": 0.9089123725801925,
+    "gemini-3.1-flash-lite": 0.9861038454587823
   }
 }

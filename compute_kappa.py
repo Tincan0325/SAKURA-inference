@@ -32,13 +32,17 @@ LABELS = {
 
 
 def load_judgements(judge_dir: Path, judge: str, track: str, sub: str):
-    """Return dict of {audio_path: 'correct'|'incorrect'} for one judge/track/sub."""
+    """Return dict of {audio_path: 'correct'|'incorrect'}, errors excluded."""
     path = judge_dir / judge / f"desta2_{track}_{sub}_judgements.json"
     if not path.exists():
         return None
     with open(path) as f:
         data = json.load(f)
-    return {k: v["Judgement"].strip().lower() for k, v in data["results"].items()}
+    return {
+        k: v["Judgement"].strip().lower()
+        for k, v in data["results"].items()
+        if v["Judgement"].strip().lower() in ("correct", "incorrect")
+    }
 
 
 def cohen_kappa(labels_a: list, labels_b: list) -> float:
