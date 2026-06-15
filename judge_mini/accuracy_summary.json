@@ -1,0 +1,101 @@
+{
+  "judge_model": "gpt-4o-mini",
+  "results": {
+    "af3_Animal_multi": {
+      "correct": 297,
+      "incorrect": 166,
+      "total": 500,
+      "accuracy": 59.4
+    },
+    "af3_Animal_single": {
+      "correct": 418,
+      "incorrect": 82,
+      "total": 500,
+      "accuracy": 83.6
+    },
+    "af3_Emotion_multi": {
+      "correct": 243,
+      "incorrect": 257,
+      "total": 500,
+      "accuracy": 48.6
+    },
+    "af3_Emotion_single": {
+      "correct": 276,
+      "incorrect": 224,
+      "total": 500,
+      "accuracy": 55.2
+    },
+    "af3_Gender_multi": {
+      "correct": 231,
+      "incorrect": 269,
+      "total": 500,
+      "accuracy": 46.2
+    },
+    "af3_Gender_single": {
+      "correct": 286,
+      "incorrect": 214,
+      "total": 500,
+      "accuracy": 57.2
+    },
+    "af3_Language_multi": {
+      "correct": 227,
+      "incorrect": 262,
+      "total": 500,
+      "accuracy": 45.4
+    },
+    "af3_Language_single": {
+      "correct": 321,
+      "incorrect": 25,
+      "total": 500,
+      "accuracy": 64.2
+    },
+    "afthink_Animal_multi": {
+      "correct": 101,
+      "incorrect": 19,
+      "total": 244,
+      "accuracy": 41.39
+    },
+    "afthink_Animal_single": {
+      "correct": 387,
+      "incorrect": 42,
+      "total": 500,
+      "accuracy": 77.4
+    },
+    "afthink_Emotion_multi": {
+      "correct": 125,
+      "incorrect": 175,
+      "total": 500,
+      "accuracy": 25.0
+    },
+    "afthink_Emotion_single": {
+      "correct": 88,
+      "incorrect": 134,
+      "total": 500,
+      "accuracy": 17.6
+    },
+    "afthink_Gender_multi": {
+      "correct": 358,
+      "incorrect": 97,
+      "total": 500,
+      "accuracy": 71.6
+    },
+    "afthink_Gender_single": {
+      "correct": 369,
+      "incorrect": 111,
+      "total": 500,
+      "accuracy": 73.8
+    },
+    "afthink_Language_multi": {
+      "correct": 410,
+      "incorrect": 81,
+      "total": 500,
+      "accuracy": 82.0
+    },
+    "afthink_Language_single": {
+      "correct": 469,
+      "incorrect": 22,
+      "total": 500,
+      "accuracy": 93.8
+    }
+  }
+}
